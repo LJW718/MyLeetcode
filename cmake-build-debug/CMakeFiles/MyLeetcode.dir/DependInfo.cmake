@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/GitHub/MyLeetcode/Array/167.twoSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj"
   "E:/GitHub/MyLeetcode/main.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
