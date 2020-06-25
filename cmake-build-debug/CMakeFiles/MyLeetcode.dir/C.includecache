@@ -8,6 +8,14 @@
 
 E:/GitHub/MyLeetcode/PublicHeaderFile.h
 
+E:/GitHub/MyLeetcode/String/22.generateParenthesis.c
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+
 E:/GitHub/MyLeetcode/main.c
 stdio.h
 -
