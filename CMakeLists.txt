@@ -3,4 +3,4 @@ project(MyLeetcode C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(MyLeetcode main.c PublicHeaderFile.h Array/167.twoSum.c)
+add_executable(MyLeetcode main.c PublicHeaderFile.h Array/167.twoSum.c Array/561.arrayPairSum.c)
