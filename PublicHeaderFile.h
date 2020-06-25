@@ -11,5 +11,7 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize);
 int arrayPairSum(int* nums, int numsSize);
 //12. 整数转罗马数字
 char * intToRoman(int num);
+//22. 括号生成
+char ** generateParenthesis(int n, int* returnSize);
 
 #endif
