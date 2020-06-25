@@ -13,4 +13,5 @@ int arrayPairSum(int* nums, int numsSize);
 char * intToRoman(int num);
 //22. 括号生成
 char ** generateParenthesis(int n, int* returnSize);
+
 #endif
