@@ -10,4 +10,4 @@ add_executable(MyLeetcode main.c
         List/2.addTwoNumbers.c
         String/12.intToRoman.c
         String/22.generateParenthesis.c
-        List/19.removeNthFromEnd.c)
+        List/19.removeNthFromEnd.c List/24.swapPairs.c)

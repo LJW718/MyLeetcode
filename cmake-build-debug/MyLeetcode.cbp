@@ -86,6 +86,9 @@
 		<Unit filename="E:/GitHub/MyLeetcode/List/2.addTwoNumbers.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/List/24.swapPairs.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/PublicHeaderFile.h">
 			<Option target="MyLeetcode"/>
 		</Unit>

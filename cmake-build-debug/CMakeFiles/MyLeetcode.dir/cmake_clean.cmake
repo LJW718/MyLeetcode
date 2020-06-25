@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
   "CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.obj"
   "CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj"
+  "CMakeFiles/MyLeetcode.dir/List/24.swapPairs.c.obj"
   "CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj"
   "CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
   "CMakeFiles/MyLeetcode.dir/main.c.obj"

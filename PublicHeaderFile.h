@@ -13,5 +13,9 @@ int arrayPairSum(int* nums, int numsSize);
 char * intToRoman(int num);
 //22. 括号生成
 char ** generateParenthesis(int n, int* returnSize);
+//19. 删除链表的倒数第N个节点
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n);
+//24. 两两交换链表中的节点
+struct ListNode* swapPairs(struct ListNode* head);
 
 #endif
