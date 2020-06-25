@@ -77,6 +77,9 @@
 		<Unit filename="E:/GitHub/MyLeetcode/Array/167.twoSum.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/Array/34.searchRange.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/Array/561.arrayPairSum.c">
 			<Option target="MyLeetcode"/>
 		</Unit>

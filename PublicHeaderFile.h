@@ -5,14 +5,21 @@
 #ifndef MYLEETCODE_PUBLICHEADERFILE_H
 #define MYLEETCODE_PUBLICHEADERFILE_H
 
+//Arrays
 //167. 两数之和 II - 输入有序数组
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize);
 //561. 数组拆分 I
 int arrayPairSum(int* nums, int numsSize);
+//34. 在排序数组中查找元素的第一个和最后一个位置
+int* searchRange(int* nums, int numsSize, int target, int* returnSize);
+
+//Strings
 //12. 整数转罗马数字
 char * intToRoman(int num);
 //22. 括号生成
 char ** generateParenthesis(int n, int* returnSize);
+
+//List
 //19. 删除链表的倒数第N个节点
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n);
 //24. 两两交换链表中的节点

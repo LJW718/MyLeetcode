@@ -149,6 +149,33 @@ Array/167.twoSum.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.s
 .PHONY : Array/167.twoSum.c.s
 
+Array/34.searchRange.obj: Array/34.searchRange.c.obj
+
+.PHONY : Array/34.searchRange.obj
+
+# target to build an object file
+Array/34.searchRange.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj
+.PHONY : Array/34.searchRange.c.obj
+
+Array/34.searchRange.i: Array/34.searchRange.c.i
+
+.PHONY : Array/34.searchRange.i
+
+# target to preprocess a source file
+Array/34.searchRange.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.i
+.PHONY : Array/34.searchRange.c.i
+
+Array/34.searchRange.s: Array/34.searchRange.c.s
+
+.PHONY : Array/34.searchRange.s
+
+# target to generate assembly for a file
+Array/34.searchRange.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.s
+.PHONY : Array/34.searchRange.c.s
+
 Array/561.arrayPairSum.obj: Array/561.arrayPairSum.c.obj
 
 .PHONY : Array/561.arrayPairSum.obj
@@ -350,6 +377,9 @@ help:
 	@echo ... Array/167.twoSum.obj
 	@echo ... Array/167.twoSum.i
 	@echo ... Array/167.twoSum.s
+	@echo ... Array/34.searchRange.obj
+	@echo ... Array/34.searchRange.i
+	@echo ... Array/34.searchRange.s
 	@echo ... Array/561.arrayPairSum.obj
 	@echo ... Array/561.arrayPairSum.i
 	@echo ... Array/561.arrayPairSum.s
