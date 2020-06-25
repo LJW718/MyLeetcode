@@ -10,5 +10,7 @@ int main() {
     arrayPairSum(nums, sizeof(nums)/sizeof(nums[0]));
 
     intToRoman(1234);
+
+    generateParenthesis(5, &returnSize);
     return 0;
 }

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/GitHub/MyLeetcode/Array/561.arrayPairSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
   "E:/GitHub/MyLeetcode/List/2.addTwoNumbers.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj"
   "E:/GitHub/MyLeetcode/String/12.intToRoman.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj"
+  "E:/GitHub/MyLeetcode/String/22.generateParenthesis.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
   "E:/GitHub/MyLeetcode/main.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

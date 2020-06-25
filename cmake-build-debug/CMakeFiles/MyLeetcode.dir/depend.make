@@ -9,6 +9,8 @@ CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj: ../List/2.addTwoNumbers.c
 
 CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj: ../String/12.intToRoman.c
 
+CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj: ../String/22.generateParenthesis.c
+
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../PublicHeaderFile.h
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../main.c
 
