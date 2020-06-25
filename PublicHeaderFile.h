@@ -25,4 +25,8 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n);
 //24. 两两交换链表中的节点
 struct ListNode* swapPairs(struct ListNode* head);
 
+//Math
+//50. Pow(x, n)
+double myPow(double x, int n);
+
 #endif

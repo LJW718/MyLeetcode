@@ -20,6 +20,7 @@ MyLeetCode
     |——Array  //数组相关题目代码目录
     |——List   //链表相关题目代码目录
     |——String //字符串相关题目代码目录
+    |——Math   //数学相关题目
     |——PublicHeaderFile.h  //新增函数实现时，手动添加函数声明到此文件
     |——main.c  //程序入口，在此文件中main()函数中调用代码目录中已实现接口
     |——README.md  //readme文件

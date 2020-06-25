@@ -92,6 +92,9 @@
 		<Unit filename="E:/GitHub/MyLeetcode/List/24.swapPairs.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/Math/50.myPow.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/PublicHeaderFile.h">
 			<Option target="MyLeetcode"/>
 		</Unit>

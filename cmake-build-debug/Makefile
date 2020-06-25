@@ -284,6 +284,33 @@ List/24.swapPairs.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/24.swapPairs.c.s
 .PHONY : List/24.swapPairs.c.s
 
+Math/50.myPow.obj: Math/50.myPow.c.obj
+
+.PHONY : Math/50.myPow.obj
+
+# target to build an object file
+Math/50.myPow.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.obj
+.PHONY : Math/50.myPow.c.obj
+
+Math/50.myPow.i: Math/50.myPow.c.i
+
+.PHONY : Math/50.myPow.i
+
+# target to preprocess a source file
+Math/50.myPow.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.i
+.PHONY : Math/50.myPow.c.i
+
+Math/50.myPow.s: Math/50.myPow.c.s
+
+.PHONY : Math/50.myPow.s
+
+# target to generate assembly for a file
+Math/50.myPow.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.s
+.PHONY : Math/50.myPow.c.s
+
 String/12.intToRoman.obj: String/12.intToRoman.c.obj
 
 .PHONY : String/12.intToRoman.obj
@@ -392,6 +419,9 @@ help:
 	@echo ... List/24.swapPairs.obj
 	@echo ... List/24.swapPairs.i
 	@echo ... List/24.swapPairs.s
+	@echo ... Math/50.myPow.obj
+	@echo ... Math/50.myPow.i
+	@echo ... Math/50.myPow.s
 	@echo ... String/12.intToRoman.obj
 	@echo ... String/12.intToRoman.i
 	@echo ... String/12.intToRoman.s

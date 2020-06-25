@@ -13,6 +13,8 @@ CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj: ../List/2.addTwoNumbers.c
 
 CMakeFiles/MyLeetcode.dir/List/24.swapPairs.c.obj: ../List/24.swapPairs.c
 
+CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.obj: ../Math/50.myPow.c
+
 CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj: ../String/12.intToRoman.c
 
 CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj: ../String/22.generateParenthesis.c
