@@ -5,6 +5,8 @@ CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj: ../Array/167.twoSum.c
 
 CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj: ../Array/561.arrayPairSum.c
 
+CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.obj: ../List/19.removeNthFromEnd.c
+
 CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj: ../List/2.addTwoNumbers.c
 
 CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj: ../String/12.intToRoman.c

@@ -176,6 +176,33 @@ Array/561.arrayPairSum.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.s
 .PHONY : Array/561.arrayPairSum.c.s
 
+List/19.removeNthFromEnd.obj: List/19.removeNthFromEnd.c.obj
+
+.PHONY : List/19.removeNthFromEnd.obj
+
+# target to build an object file
+List/19.removeNthFromEnd.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.obj
+.PHONY : List/19.removeNthFromEnd.c.obj
+
+List/19.removeNthFromEnd.i: List/19.removeNthFromEnd.c.i
+
+.PHONY : List/19.removeNthFromEnd.i
+
+# target to preprocess a source file
+List/19.removeNthFromEnd.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.i
+.PHONY : List/19.removeNthFromEnd.c.i
+
+List/19.removeNthFromEnd.s: List/19.removeNthFromEnd.c.s
+
+.PHONY : List/19.removeNthFromEnd.s
+
+# target to generate assembly for a file
+List/19.removeNthFromEnd.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.s
+.PHONY : List/19.removeNthFromEnd.c.s
+
 List/2.addTwoNumbers.obj: List/2.addTwoNumbers.c.obj
 
 .PHONY : List/2.addTwoNumbers.obj
@@ -299,6 +326,9 @@ help:
 	@echo ... Array/561.arrayPairSum.obj
 	@echo ... Array/561.arrayPairSum.i
 	@echo ... Array/561.arrayPairSum.s
+	@echo ... List/19.removeNthFromEnd.obj
+	@echo ... List/19.removeNthFromEnd.i
+	@echo ... List/19.removeNthFromEnd.s
 	@echo ... List/2.addTwoNumbers.obj
 	@echo ... List/2.addTwoNumbers.i
 	@echo ... List/2.addTwoNumbers.s

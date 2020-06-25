@@ -9,4 +9,5 @@ add_executable(MyLeetcode main.c
         Array/561.arrayPairSum.c
         List/2.addTwoNumbers.c
         String/12.intToRoman.c
-        String/22.generateParenthesis.c)
+        String/22.generateParenthesis.c
+        List/19.removeNthFromEnd.c)

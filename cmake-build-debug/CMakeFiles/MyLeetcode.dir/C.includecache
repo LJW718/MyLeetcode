@@ -8,9 +8,9 @@
 
 E:/GitHub/MyLeetcode/PublicHeaderFile.h
 
-E:/GitHub/MyLeetcode/main.c
+E:/GitHub/MyLeetcode/List/19.removeNthFromEnd.c
 stdio.h
 -
-PublicHeaderFile.h
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
+malloc.h
+-
 
