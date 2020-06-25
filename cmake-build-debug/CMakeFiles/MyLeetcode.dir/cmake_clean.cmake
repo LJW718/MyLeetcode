@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
+  "CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj"
   "CMakeFiles/MyLeetcode.dir/main.c.obj"
   "MyLeetcode.exe"
   "MyLeetcode.exe.manifest"

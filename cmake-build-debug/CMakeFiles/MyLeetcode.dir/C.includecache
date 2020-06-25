@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/Array/561.arrayPairSum.c
+E:/GitHub/MyLeetcode/List/2.addTwoNumbers.c
+malloc.h
+-
 stdio.h
 -
-search.h
--
-
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
-
-E:/GitHub/MyLeetcode/main.c
-stdio.h
--
-PublicHeaderFile.h
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
 
