@@ -12,6 +12,5 @@ int main() {
     intToRoman(1234);
 
     generateParenthesis(5, &returnSize);
-
     return 0;
 }

@@ -6,10 +6,26 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+E:/GitHub/MyLeetcode/List/19.removeNthFromEnd.c
+stdio.h
+-
+malloc.h
+=======
 E:/GitHub/MyLeetcode/PublicHeaderFile.h
 
 E:/GitHub/MyLeetcode/List/19.removeNthFromEnd.c
+E:/GitHub/MyLeetcode/String/22.generateParenthesis.c
 stdio.h
+-
+malloc.h
+-
+string.h
+-
+
+E:/GitHub/MyLeetcode/main.c
+stdio.h
+>>>>>>> 69625185a0662bd53e5830fa63126f5734e7521b
 -
 malloc.h
 -
