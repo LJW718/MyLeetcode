@@ -8,5 +8,7 @@ int main() {
     twoSum(nums, sizeof(nums)/sizeof(nums[0]), 9, &returnSize);
 
     arrayPairSum(nums, sizeof(nums)/sizeof(nums[0]));
+
+    intToRoman(1234);
     return 0;
 }

@@ -203,6 +203,33 @@ List/2.addTwoNumbers.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.s
 .PHONY : List/2.addTwoNumbers.c.s
 
+String/12.intToRoman.obj: String/12.intToRoman.c.obj
+
+.PHONY : String/12.intToRoman.obj
+
+# target to build an object file
+String/12.intToRoman.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj
+.PHONY : String/12.intToRoman.c.obj
+
+String/12.intToRoman.i: String/12.intToRoman.c.i
+
+.PHONY : String/12.intToRoman.i
+
+# target to preprocess a source file
+String/12.intToRoman.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.i
+.PHONY : String/12.intToRoman.c.i
+
+String/12.intToRoman.s: String/12.intToRoman.c.s
+
+.PHONY : String/12.intToRoman.s
+
+# target to generate assembly for a file
+String/12.intToRoman.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.s
+.PHONY : String/12.intToRoman.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... List/2.addTwoNumbers.obj
 	@echo ... List/2.addTwoNumbers.i
 	@echo ... List/2.addTwoNumbers.s
+	@echo ... String/12.intToRoman.obj
+	@echo ... String/12.intToRoman.i
+	@echo ... String/12.intToRoman.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

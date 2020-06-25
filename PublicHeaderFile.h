@@ -7,8 +7,9 @@
 
 //167. 两数之和 II - 输入有序数组
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize);
-
 //561. 数组拆分 I
 int arrayPairSum(int* nums, int numsSize);
+//12. 整数转罗马数字
+char * intToRoman(int num);
 
 #endif

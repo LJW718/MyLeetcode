@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/List/2.addTwoNumbers.c
+E:/GitHub/MyLeetcode/PublicHeaderFile.h
+
+E:/GitHub/MyLeetcode/String/12.intToRoman.c
 malloc.h
 -
 stdio.h
 -
+string.h
+-
+
+E:/GitHub/MyLeetcode/main.c
+stdio.h
+-
+PublicHeaderFile.h
+E:/GitHub/MyLeetcode/PublicHeaderFile.h
 
