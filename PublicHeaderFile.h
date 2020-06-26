@@ -26,6 +26,8 @@ char ** generateParenthesis(int n, int* returnSize);
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n);
 //24. 两两交换链表中的节点
 struct ListNode* swapPairs(struct ListNode* head);
+//02.01. 移除重复节点
+struct ListNode* removeDuplicateNodes(struct ListNode* head);
 
 //Math
 //50. Pow(x, n)

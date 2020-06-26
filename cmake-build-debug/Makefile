@@ -203,6 +203,33 @@ Array/561.arrayPairSum.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.s
 .PHONY : Array/561.arrayPairSum.c.s
 
+List/02.01.removeDuplicateNodes.obj: List/02.01.removeDuplicateNodes.c.obj
+
+.PHONY : List/02.01.removeDuplicateNodes.obj
+
+# target to build an object file
+List/02.01.removeDuplicateNodes.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.obj
+.PHONY : List/02.01.removeDuplicateNodes.c.obj
+
+List/02.01.removeDuplicateNodes.i: List/02.01.removeDuplicateNodes.c.i
+
+.PHONY : List/02.01.removeDuplicateNodes.i
+
+# target to preprocess a source file
+List/02.01.removeDuplicateNodes.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.i
+.PHONY : List/02.01.removeDuplicateNodes.c.i
+
+List/02.01.removeDuplicateNodes.s: List/02.01.removeDuplicateNodes.c.s
+
+.PHONY : List/02.01.removeDuplicateNodes.s
+
+# target to generate assembly for a file
+List/02.01.removeDuplicateNodes.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.s
+.PHONY : List/02.01.removeDuplicateNodes.c.s
+
 List/19.removeNthFromEnd.obj: List/19.removeNthFromEnd.c.obj
 
 .PHONY : List/19.removeNthFromEnd.obj
@@ -437,6 +464,9 @@ help:
 	@echo ... Array/561.arrayPairSum.obj
 	@echo ... Array/561.arrayPairSum.i
 	@echo ... Array/561.arrayPairSum.s
+	@echo ... List/02.01.removeDuplicateNodes.obj
+	@echo ... List/02.01.removeDuplicateNodes.i
+	@echo ... List/02.01.removeDuplicateNodes.s
 	@echo ... List/19.removeNthFromEnd.obj
 	@echo ... List/19.removeNthFromEnd.i
 	@echo ... List/19.removeNthFromEnd.s

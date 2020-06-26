@@ -41,8 +41,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a488013-a83b-4f95-bed7-b94d66a74e8e" name="Default Changelist" comment="50. Pow(x, n)">
-      <change afterPath="$PROJECT_DIR$/String/17.letterCombinations.c" afterDir="false" />
+    <list default="true" id="2a488013-a83b-4f95-bed7-b94d66a74e8e" name="Default Changelist" comment="17. 电话号码的字母组合">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List/02.01.removeDuplicateNodes.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicHeaderFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/PublicHeaderFile.h" afterDir="false" />
@@ -53,13 +54,11 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MyLeetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MyLeetcode.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +86,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager">
     <configuration name="MyLeetcode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyLeetcode" TARGET_NAME="MyLeetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyLeetcode" RUN_TARGET_NAME="MyLeetcode">
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593086770827</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="17. 电话号码的字母组合">
+      <created>1593157438329</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593157438329</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +247,8 @@
     <MESSAGE value="24. 两两交换链表中的节点" />
     <MESSAGE value="34. 在排序数组中查找元素的第一个和最后一个位置" />
     <MESSAGE value="50. Pow(x, n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="50. Pow(x, n)" />
+    <MESSAGE value="17. 电话号码的字母组合" />
+    <option name="LAST_COMMIT_MESSAGE" value="17. 电话号码的字母组合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#New_File_Extensions" timestamp="1593087844871">
@@ -266,6 +275,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593157372419" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1593158953936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593158953936" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593078905485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

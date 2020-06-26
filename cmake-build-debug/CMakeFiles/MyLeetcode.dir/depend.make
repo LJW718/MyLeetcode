@@ -7,6 +7,8 @@ CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj: ../Array/34.searchRange.c
 
 CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj: ../Array/561.arrayPairSum.c
 
+CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.obj: ../List/02.01.removeDuplicateNodes.c
+
 CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.obj: ../List/19.removeNthFromEnd.c
 
 CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj: ../List/2.addTwoNumbers.c

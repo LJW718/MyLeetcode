@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/GitHub/MyLeetcode/Array/167.twoSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj"
   "E:/GitHub/MyLeetcode/Array/34.searchRange.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj"
   "E:/GitHub/MyLeetcode/Array/561.arrayPairSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
+  "E:/GitHub/MyLeetcode/List/02.01.removeDuplicateNodes.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.obj"
   "E:/GitHub/MyLeetcode/List/19.removeNthFromEnd.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.obj"
   "E:/GitHub/MyLeetcode/List/2.addTwoNumbers.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/List/2.addTwoNumbers.c.obj"
   "E:/GitHub/MyLeetcode/List/24.swapPairs.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/List/24.swapPairs.c.obj"
