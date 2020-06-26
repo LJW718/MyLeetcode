@@ -12,6 +12,8 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize);
 int arrayPairSum(int* nums, int numsSize);
 //34. 在排序数组中查找元素的第一个和最后一个位置
 int* searchRange(int* nums, int numsSize, int target, int* returnSize);
+//1480. 一维数组的动态和
+int* runningSum(int* nums, int numsSize, int* returnSize);
 
 //Strings
 //12. 整数转罗马数字

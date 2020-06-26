@@ -122,6 +122,33 @@ MyLeetcode/fast:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/build
 .PHONY : MyLeetcode/fast
 
+Array/1480.runningSum.obj: Array/1480.runningSum.c.obj
+
+.PHONY : Array/1480.runningSum.obj
+
+# target to build an object file
+Array/1480.runningSum.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj
+.PHONY : Array/1480.runningSum.c.obj
+
+Array/1480.runningSum.i: Array/1480.runningSum.c.i
+
+.PHONY : Array/1480.runningSum.i
+
+# target to preprocess a source file
+Array/1480.runningSum.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.i
+.PHONY : Array/1480.runningSum.c.i
+
+Array/1480.runningSum.s: Array/1480.runningSum.c.s
+
+.PHONY : Array/1480.runningSum.s
+
+# target to generate assembly for a file
+Array/1480.runningSum.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.s
+.PHONY : Array/1480.runningSum.c.s
+
 Array/167.twoSum.obj: Array/167.twoSum.c.obj
 
 .PHONY : Array/167.twoSum.obj
@@ -455,6 +482,9 @@ help:
 	@echo ... edit_cache
 	@echo ... MyLeetcode
 	@echo ... rebuild_cache
+	@echo ... Array/1480.runningSum.obj
+	@echo ... Array/1480.runningSum.i
+	@echo ... Array/1480.runningSum.s
 	@echo ... Array/167.twoSum.obj
 	@echo ... Array/167.twoSum.i
 	@echo ... Array/167.twoSum.s

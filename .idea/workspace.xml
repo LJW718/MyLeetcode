@@ -25,8 +25,6 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -41,9 +39,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a488013-a83b-4f95-bed7-b94d66a74e8e" name="Default Changelist" comment="17. 电话号码的字母组合">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/02.01.removeDuplicateNodes.c" afterDir="false" />
+    <list default="true" id="2a488013-a83b-4f95-bed7-b94d66a74e8e" name="Default Changelist" comment="02.01. 移除重复节点">
+      <change afterPath="$PROJECT_DIR$/Array/1480.runningSum.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicHeaderFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/PublicHeaderFile.h" afterDir="false" />
@@ -54,11 +51,13 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyLeetcode.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MyLeetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MyLeetcode.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593157438329</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="02.01. 移除重复节点">
+      <created>1593168606597</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593168606598</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,19 +221,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -248,7 +242,8 @@
     <MESSAGE value="34. 在排序数组中查找元素的第一个和最后一个位置" />
     <MESSAGE value="50. Pow(x, n)" />
     <MESSAGE value="17. 电话号码的字母组合" />
-    <option name="LAST_COMMIT_MESSAGE" value="17. 电话号码的字母组合" />
+    <MESSAGE value="02.01. 移除重复节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.01. 移除重复节点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#New_File_Extensions" timestamp="1593087844871">
@@ -259,22 +254,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1593072685052" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1593157372419">
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1593168573547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593157372419" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1593157372419">
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593168573547" />
+    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1593168573547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593157372419" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1593157372419">
+    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593168573547" />
+    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1593168573545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593157372419" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1593157372419">
+    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593168573545" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1593168573547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593157372419" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593168573547" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1593158953936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

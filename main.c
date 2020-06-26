@@ -15,5 +15,6 @@ int main() {
     searchRange(nums2, ARRAY_SIZE(nums2), 8, &returnSize);
     myPow(5.0, 6);
     letterCombinations("234", &returnSize);
+    runningSum(nums, ARRAY_SIZE(nums),&returnSize);
     return 0;
 }

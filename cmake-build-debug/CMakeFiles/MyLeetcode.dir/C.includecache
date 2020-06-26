@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+E:/GitHub/MyLeetcode/Array/1480.runningSum.c
+stdio.h
+-
+string.h
+-
+malloc.h
+-
+
 E:/GitHub/MyLeetcode/PublicHeaderFile.h
 
 E:/GitHub/MyLeetcode/main.c

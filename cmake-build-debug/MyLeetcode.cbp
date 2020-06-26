@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/GitHub/MyLeetcode/Array/1480.runningSum.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/Array/167.twoSum.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
