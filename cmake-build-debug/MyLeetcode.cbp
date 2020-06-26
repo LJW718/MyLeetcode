@@ -101,6 +101,9 @@
 		<Unit filename="E:/GitHub/MyLeetcode/String/12.intToRoman.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/String/17.letterCombinations.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/String/22.generateParenthesis.c">
 			<Option target="MyLeetcode"/>
 		</Unit>

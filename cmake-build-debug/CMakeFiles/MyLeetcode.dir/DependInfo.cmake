@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/GitHub/MyLeetcode/List/24.swapPairs.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/List/24.swapPairs.c.obj"
   "E:/GitHub/MyLeetcode/Math/50.myPow.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.obj"
   "E:/GitHub/MyLeetcode/String/12.intToRoman.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj"
+  "E:/GitHub/MyLeetcode/String/17.letterCombinations.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.obj"
   "E:/GitHub/MyLeetcode/String/22.generateParenthesis.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
   "E:/GitHub/MyLeetcode/main.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/main.c.obj"
   )

@@ -17,6 +17,8 @@ CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.obj: ../Math/50.myPow.c
 
 CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj: ../String/12.intToRoman.c
 
+CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.obj: ../String/17.letterCombinations.c
+
 CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj: ../String/22.generateParenthesis.c
 
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../PublicHeaderFile.h

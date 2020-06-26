@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyLeetcode.dir/List/24.swapPairs.c.obj"
   "CMakeFiles/MyLeetcode.dir/Math/50.myPow.c.obj"
   "CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj"
+  "CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.obj"
   "CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
   "CMakeFiles/MyLeetcode.dir/main.c.obj"
   "MyLeetcode.exe"

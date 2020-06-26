@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
-
-E:/GitHub/MyLeetcode/main.c
+E:/GitHub/MyLeetcode/String/17.letterCombinations.c
 stdio.h
 -
-PublicHeaderFile.h
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
+malloc.h
+-
+string.h
+-
 

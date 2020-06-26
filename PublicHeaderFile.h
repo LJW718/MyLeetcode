@@ -16,6 +16,8 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize);
 //Strings
 //12. 整数转罗马数字
 char * intToRoman(int num);
+//17. 电话号码的字母组合
+char ** letterCombinations(char * digits, int* returnSize);
 //22. 括号生成
 char ** generateParenthesis(int n, int* returnSize);
 

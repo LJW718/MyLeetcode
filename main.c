@@ -14,5 +14,6 @@ int main() {
     int nums2[] = {5,7,7,8,8,10};
     searchRange(nums2, ARRAY_SIZE(nums2), 8, &returnSize);
     myPow(5.0, 6);
+    letterCombinations("234", &returnSize);
     return 0;
 }

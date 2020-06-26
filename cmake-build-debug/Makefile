@@ -338,6 +338,33 @@ String/12.intToRoman.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.s
 .PHONY : String/12.intToRoman.c.s
 
+String/17.letterCombinations.obj: String/17.letterCombinations.c.obj
+
+.PHONY : String/17.letterCombinations.obj
+
+# target to build an object file
+String/17.letterCombinations.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.obj
+.PHONY : String/17.letterCombinations.c.obj
+
+String/17.letterCombinations.i: String/17.letterCombinations.c.i
+
+.PHONY : String/17.letterCombinations.i
+
+# target to preprocess a source file
+String/17.letterCombinations.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.i
+.PHONY : String/17.letterCombinations.c.i
+
+String/17.letterCombinations.s: String/17.letterCombinations.c.s
+
+.PHONY : String/17.letterCombinations.s
+
+# target to generate assembly for a file
+String/17.letterCombinations.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.s
+.PHONY : String/17.letterCombinations.c.s
+
 String/22.generateParenthesis.obj: String/22.generateParenthesis.c.obj
 
 .PHONY : String/22.generateParenthesis.obj
@@ -425,6 +452,9 @@ help:
 	@echo ... String/12.intToRoman.obj
 	@echo ... String/12.intToRoman.i
 	@echo ... String/12.intToRoman.s
+	@echo ... String/17.letterCombinations.obj
+	@echo ... String/17.letterCombinations.i
+	@echo ... String/17.letterCombinations.s
 	@echo ... String/22.generateParenthesis.obj
 	@echo ... String/22.generateParenthesis.i
 	@echo ... String/22.generateParenthesis.s
