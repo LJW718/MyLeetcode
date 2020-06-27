@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/GitHub/MyLeetcode/String/12.intToRoman.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/12.intToRoman.c.obj"
   "E:/GitHub/MyLeetcode/String/17.letterCombinations.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.obj"
   "E:/GitHub/MyLeetcode/String/22.generateParenthesis.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
+  "E:/GitHub/MyLeetcode/String/537.complexNumberMultiply.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj"
   "E:/GitHub/MyLeetcode/main.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

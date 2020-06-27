@@ -27,6 +27,8 @@ CMakeFiles/MyLeetcode.dir/String/17.letterCombinations.c.obj: ../String/17.lette
 
 CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj: ../String/22.generateParenthesis.c
 
+CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj: ../String/537.complexNumberMultiply.c
+
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../PublicHeaderFile.h
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../main.c
 

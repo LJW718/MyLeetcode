@@ -24,6 +24,8 @@ char * intToRoman(int num);
 char ** letterCombinations(char * digits, int* returnSize);
 //22. 括号生成
 char ** generateParenthesis(int n, int* returnSize);
+//537. 复数乘法
+char * complexNumberMultiply(char * a, char * b);
 
 //List
 //02.01. 移除重复节点

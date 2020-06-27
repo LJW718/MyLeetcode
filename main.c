@@ -30,6 +30,7 @@ int main() {
         }
     }
     //minPathSum(grid, 3,&gridColSize);
+    complexNumberMultiply("1+-1i", "1+-1i");
 
     return 0;
 }

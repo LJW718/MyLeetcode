@@ -473,6 +473,33 @@ String/22.generateParenthesis.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.s
 .PHONY : String/22.generateParenthesis.c.s
 
+String/537.complexNumberMultiply.obj: String/537.complexNumberMultiply.c.obj
+
+.PHONY : String/537.complexNumberMultiply.obj
+
+# target to build an object file
+String/537.complexNumberMultiply.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj
+.PHONY : String/537.complexNumberMultiply.c.obj
+
+String/537.complexNumberMultiply.i: String/537.complexNumberMultiply.c.i
+
+.PHONY : String/537.complexNumberMultiply.i
+
+# target to preprocess a source file
+String/537.complexNumberMultiply.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.i
+.PHONY : String/537.complexNumberMultiply.c.i
+
+String/537.complexNumberMultiply.s: String/537.complexNumberMultiply.c.s
+
+.PHONY : String/537.complexNumberMultiply.s
+
+# target to generate assembly for a file
+String/537.complexNumberMultiply.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.s
+.PHONY : String/537.complexNumberMultiply.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -548,6 +575,9 @@ help:
 	@echo ... String/22.generateParenthesis.obj
 	@echo ... String/22.generateParenthesis.i
 	@echo ... String/22.generateParenthesis.s
+	@echo ... String/537.complexNumberMultiply.obj
+	@echo ... String/537.complexNumberMultiply.i
+	@echo ... String/537.complexNumberMultiply.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
