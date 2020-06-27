@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <malloc.h>
 #include "PublicHeaderFile.h"
 
 #define ARRAY_SIZE(nums) ((sizeof(nums)) / (sizeof(nums[0])))
@@ -16,5 +17,19 @@ int main() {
     myPow(5.0, 6);
     letterCombinations("234", &returnSize);
     runningSum(nums, ARRAY_SIZE(nums),&returnSize);
+
+
+    int gridColSize = 3;
+    int **grid = (int **)malloc(sizeof(int *) * 3);
+    if (grid != NULL) {
+        for (int i = 0; i < 3; i++) {
+            grid[i] = (int *)malloc(sizeof(int) * 3);
+            for (int j = 0; j < 3; j++) {
+                grid[i][j] = i + j;
+            }
+        }
+    }
+    //minPathSum(grid, 3,&gridColSize);
+
     return 0;
 }

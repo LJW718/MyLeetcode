@@ -10,4 +10,4 @@ add_executable(MyLeetcode main.c
         List/2.addTwoNumbers.c
         String/12.intToRoman.c
         String/22.generateParenthesis.c
-        List/19.removeNthFromEnd.c List/24.swapPairs.c Array/34.searchRange.c Math/50.myPow.c String/17.letterCombinations.c List/02.01.removeDuplicateNodes.c Array/1480.runningSum.c)
+        List/19.removeNthFromEnd.c List/24.swapPairs.c Array/34.searchRange.c Math/50.myPow.c String/17.letterCombinations.c List/02.01.removeDuplicateNodes.c Array/1480.runningSum.c Array/64.minPathSum.c)

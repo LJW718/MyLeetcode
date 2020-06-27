@@ -230,6 +230,33 @@ Array/561.arrayPairSum.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.s
 .PHONY : Array/561.arrayPairSum.c.s
 
+Array/64.minPathSum.obj: Array/64.minPathSum.c.obj
+
+.PHONY : Array/64.minPathSum.obj
+
+# target to build an object file
+Array/64.minPathSum.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj
+.PHONY : Array/64.minPathSum.c.obj
+
+Array/64.minPathSum.i: Array/64.minPathSum.c.i
+
+.PHONY : Array/64.minPathSum.i
+
+# target to preprocess a source file
+Array/64.minPathSum.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.i
+.PHONY : Array/64.minPathSum.c.i
+
+Array/64.minPathSum.s: Array/64.minPathSum.c.s
+
+.PHONY : Array/64.minPathSum.s
+
+# target to generate assembly for a file
+Array/64.minPathSum.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.s
+.PHONY : Array/64.minPathSum.c.s
+
 List/02.01.removeDuplicateNodes.obj: List/02.01.removeDuplicateNodes.c.obj
 
 .PHONY : List/02.01.removeDuplicateNodes.obj
@@ -494,6 +521,9 @@ help:
 	@echo ... Array/561.arrayPairSum.obj
 	@echo ... Array/561.arrayPairSum.i
 	@echo ... Array/561.arrayPairSum.s
+	@echo ... Array/64.minPathSum.obj
+	@echo ... Array/64.minPathSum.i
+	@echo ... Array/64.minPathSum.s
 	@echo ... List/02.01.removeDuplicateNodes.obj
 	@echo ... List/02.01.removeDuplicateNodes.i
 	@echo ... List/02.01.removeDuplicateNodes.s

@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/Array/1480.runningSum.c
+E:/GitHub/MyLeetcode/Array/64.minPathSum.c
 stdio.h
--
-string.h
 -
 malloc.h
 -
-
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
-
-E:/GitHub/MyLeetcode/main.c
-stdio.h
--
-PublicHeaderFile.h
-E:/GitHub/MyLeetcode/PublicHeaderFile.h
 

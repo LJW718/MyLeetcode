@@ -86,6 +86,9 @@
 		<Unit filename="E:/GitHub/MyLeetcode/Array/561.arrayPairSum.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/Array/64.minPathSum.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/List/02.01.removeDuplicateNodes.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
