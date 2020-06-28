@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/String/537.complexNumberMultiply.c
-stdio.h
+E:/GitHub/MyLeetcode/Array/665.checkPossibility.c
+stdbool.h
 -
-malloc.h
+stdio.h
 -
 

@@ -11,6 +11,8 @@ CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj: ../Array/561.arrayPairSu
 
 CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj: ../Array/64.minPathSum.c
 
+CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj: ../Array/665.checkPossibility.c
+
 CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.obj: ../List/02.01.removeDuplicateNodes.c
 
 CMakeFiles/MyLeetcode.dir/List/19.removeNthFromEnd.c.obj: ../List/19.removeNthFromEnd.c
@@ -29,6 +31,10 @@ CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj: ../String/22.gene
 
 CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj: ../String/537.complexNumberMultiply.c
 
+CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj: ../String/890.findAndReplacePattern.c
+
+CMakeFiles/MyLeetcode.dir/main.c.obj: ../Array/ArrayHeaderFile.h
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../PublicHeaderFile.h
+CMakeFiles/MyLeetcode.dir/main.c.obj: ../String/StringHeaderFile.h
 CMakeFiles/MyLeetcode.dir/main.c.obj: ../main.c
 

@@ -251,6 +251,32 @@ CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.s"
 	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\MyLeetcode\String\537.complexNumberMultiply.c -o CMakeFiles\MyLeetcode.dir\String\537.complexNumberMultiply.c.s
 
+CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj: CMakeFiles/MyLeetcode.dir/flags.make
+CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj: ../String/890.findAndReplacePattern.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\MyLeetcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj"
+	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyLeetcode.dir\String\890.findAndReplacePattern.c.obj   -c E:\GitHub\MyLeetcode\String\890.findAndReplacePattern.c
+
+CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.i"
+	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\MyLeetcode\String\890.findAndReplacePattern.c > CMakeFiles\MyLeetcode.dir\String\890.findAndReplacePattern.c.i
+
+CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.s"
+	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\MyLeetcode\String\890.findAndReplacePattern.c -o CMakeFiles\MyLeetcode.dir\String\890.findAndReplacePattern.c.s
+
+CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj: CMakeFiles/MyLeetcode.dir/flags.make
+CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj: ../Array/665.checkPossibility.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\MyLeetcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj"
+	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyLeetcode.dir\Array\665.checkPossibility.c.obj   -c E:\GitHub\MyLeetcode\Array\665.checkPossibility.c
+
+CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.i"
+	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\GitHub\MyLeetcode\Array\665.checkPossibility.c > CMakeFiles\MyLeetcode.dir\Array\665.checkPossibility.c.i
+
+CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.s"
+	"D:\Program Files\MinGW64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\GitHub\MyLeetcode\Array\665.checkPossibility.c -o CMakeFiles\MyLeetcode.dir\Array\665.checkPossibility.c.s
+
 # Object files for target MyLeetcode
 MyLeetcode_OBJECTS = \
 "CMakeFiles/MyLeetcode.dir/main.c.obj" \
@@ -267,7 +293,9 @@ MyLeetcode_OBJECTS = \
 "CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.obj" \
 "CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj" \
 "CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj" \
-"CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj"
+"CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj" \
+"CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj" \
+"CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj"
 
 # External object files for target MyLeetcode
 MyLeetcode_EXTERNAL_OBJECTS =
@@ -287,11 +315,13 @@ MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/List/02.01.removeDuplicateNodes.c.obj
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj
+MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj
+MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/build.make
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/linklibs.rsp
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/objects1.rsp
 MyLeetcode.exe: CMakeFiles/MyLeetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\MyLeetcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable MyLeetcode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\MyLeetcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable MyLeetcode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyLeetcode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

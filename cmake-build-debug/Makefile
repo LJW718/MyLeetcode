@@ -257,6 +257,33 @@ Array/64.minPathSum.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.s
 .PHONY : Array/64.minPathSum.c.s
 
+Array/665.checkPossibility.obj: Array/665.checkPossibility.c.obj
+
+.PHONY : Array/665.checkPossibility.obj
+
+# target to build an object file
+Array/665.checkPossibility.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj
+.PHONY : Array/665.checkPossibility.c.obj
+
+Array/665.checkPossibility.i: Array/665.checkPossibility.c.i
+
+.PHONY : Array/665.checkPossibility.i
+
+# target to preprocess a source file
+Array/665.checkPossibility.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.i
+.PHONY : Array/665.checkPossibility.c.i
+
+Array/665.checkPossibility.s: Array/665.checkPossibility.c.s
+
+.PHONY : Array/665.checkPossibility.s
+
+# target to generate assembly for a file
+Array/665.checkPossibility.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.s
+.PHONY : Array/665.checkPossibility.c.s
+
 List/02.01.removeDuplicateNodes.obj: List/02.01.removeDuplicateNodes.c.obj
 
 .PHONY : List/02.01.removeDuplicateNodes.obj
@@ -500,6 +527,33 @@ String/537.complexNumberMultiply.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.s
 .PHONY : String/537.complexNumberMultiply.c.s
 
+String/890.findAndReplacePattern.obj: String/890.findAndReplacePattern.c.obj
+
+.PHONY : String/890.findAndReplacePattern.obj
+
+# target to build an object file
+String/890.findAndReplacePattern.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj
+.PHONY : String/890.findAndReplacePattern.c.obj
+
+String/890.findAndReplacePattern.i: String/890.findAndReplacePattern.c.i
+
+.PHONY : String/890.findAndReplacePattern.i
+
+# target to preprocess a source file
+String/890.findAndReplacePattern.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.i
+.PHONY : String/890.findAndReplacePattern.c.i
+
+String/890.findAndReplacePattern.s: String/890.findAndReplacePattern.c.s
+
+.PHONY : String/890.findAndReplacePattern.s
+
+# target to generate assembly for a file
+String/890.findAndReplacePattern.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.s
+.PHONY : String/890.findAndReplacePattern.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -551,6 +605,9 @@ help:
 	@echo ... Array/64.minPathSum.obj
 	@echo ... Array/64.minPathSum.i
 	@echo ... Array/64.minPathSum.s
+	@echo ... Array/665.checkPossibility.obj
+	@echo ... Array/665.checkPossibility.i
+	@echo ... Array/665.checkPossibility.s
 	@echo ... List/02.01.removeDuplicateNodes.obj
 	@echo ... List/02.01.removeDuplicateNodes.i
 	@echo ... List/02.01.removeDuplicateNodes.s
@@ -578,6 +635,9 @@ help:
 	@echo ... String/537.complexNumberMultiply.obj
 	@echo ... String/537.complexNumberMultiply.i
 	@echo ... String/537.complexNumberMultiply.s
+	@echo ... String/890.findAndReplacePattern.obj
+	@echo ... String/890.findAndReplacePattern.i
+	@echo ... String/890.findAndReplacePattern.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

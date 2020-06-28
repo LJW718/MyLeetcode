@@ -89,6 +89,12 @@
 		<Unit filename="E:/GitHub/MyLeetcode/Array/64.minPathSum.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/Array/665.checkPossibility.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/Array/ArrayHeaderFile.h">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/List/02.01.removeDuplicateNodes.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
@@ -117,6 +123,12 @@
 			<Option target="MyLeetcode"/>
 		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/String/537.complexNumberMultiply.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/String/890.findAndReplacePattern.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/String/StringHeaderFile.h">
 			<Option target="MyLeetcode"/>
 		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/main.c">

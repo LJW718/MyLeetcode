@@ -3,7 +3,16 @@
 #include <malloc.h>
 #include "PublicHeaderFile.h"
 
+#include "String/StringHeaderFile.h"
+#include "Array/ArrayHeaderFile.h"
+
 #define ARRAY_SIZE(nums) ((sizeof(nums)) / (sizeof(nums[0])))
+
+#define CLEAR_ARRAY(nums, numsSize) do { \
+    for (int i = 0; i < numsSize; i++) { \
+        nums[i] = 0;                     \
+    }                                    \
+} while(0);                              \
 
 int main() {
     int nums[] = {2,7,11,15};
@@ -31,6 +40,12 @@ int main() {
     }
     //minPathSum(grid, 3,&gridColSize);
     complexNumberMultiply("1+-1i", "1+-1i");
+
+    //char words[5][10] = {"abcd", "aabb", "ccvv", "qweq", "sadw"};
+    //findAndReplacePattern(words, ARRAY_SIZE(words), "qqww", &returnSize);
+
+    int nums3[] = {3,4,2,3};
+    checkPossibility(nums3, ARRAY_SIZE(nums));
 
     return 0;
 }
