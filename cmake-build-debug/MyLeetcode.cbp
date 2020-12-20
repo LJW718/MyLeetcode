@@ -80,6 +80,9 @@
 		<Unit filename="E:/GitHub/MyLeetcode/Array/167.twoSum.c">
 			<Option target="MyLeetcode"/>
 		</Unit>
+		<Unit filename="E:/GitHub/MyLeetcode/Array/3.lengthOfLongestSubstring.c">
+			<Option target="MyLeetcode"/>
+		</Unit>
 		<Unit filename="E:/GitHub/MyLeetcode/Array/34.searchRange.c">
 			<Option target="MyLeetcode"/>
 		</Unit>

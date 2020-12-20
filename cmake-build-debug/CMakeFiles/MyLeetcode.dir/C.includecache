@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/Array/665.checkPossibility.c
-stdbool.h
--
+E:/GitHub/MyLeetcode/Array/3.lengthOfLongestSubstring.c
 stdio.h
+-
+string.h
+-
+ArrayHeaderFile.h
+E:/GitHub/MyLeetcode/Array/ArrayHeaderFile.h
+
+E:/GitHub/MyLeetcode/Array/ArrayHeaderFile.h
+stdbool.h
 -
 

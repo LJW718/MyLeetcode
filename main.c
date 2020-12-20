@@ -47,5 +47,7 @@ int main() {
     int nums3[] = {3,4,2,3};
     checkPossibility(nums3, ARRAY_SIZE(nums));
 
+    lengthOfLongestSubstring("abcabcbb");
+
     return 0;
 }

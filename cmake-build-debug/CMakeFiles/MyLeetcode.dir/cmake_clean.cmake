@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj"
+  "CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj"

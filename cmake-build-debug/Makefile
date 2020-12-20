@@ -176,6 +176,33 @@ Array/167.twoSum.c.s:
 	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.s
 .PHONY : Array/167.twoSum.c.s
 
+Array/3.lengthOfLongestSubstring.obj: Array/3.lengthOfLongestSubstring.c.obj
+
+.PHONY : Array/3.lengthOfLongestSubstring.obj
+
+# target to build an object file
+Array/3.lengthOfLongestSubstring.c.obj:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.obj
+.PHONY : Array/3.lengthOfLongestSubstring.c.obj
+
+Array/3.lengthOfLongestSubstring.i: Array/3.lengthOfLongestSubstring.c.i
+
+.PHONY : Array/3.lengthOfLongestSubstring.i
+
+# target to preprocess a source file
+Array/3.lengthOfLongestSubstring.c.i:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.i
+.PHONY : Array/3.lengthOfLongestSubstring.c.i
+
+Array/3.lengthOfLongestSubstring.s: Array/3.lengthOfLongestSubstring.c.s
+
+.PHONY : Array/3.lengthOfLongestSubstring.s
+
+# target to generate assembly for a file
+Array/3.lengthOfLongestSubstring.c.s:
+	$(MAKE) -f CMakeFiles\MyLeetcode.dir\build.make CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.s
+.PHONY : Array/3.lengthOfLongestSubstring.c.s
+
 Array/34.searchRange.obj: Array/34.searchRange.c.obj
 
 .PHONY : Array/34.searchRange.obj
@@ -596,6 +623,9 @@ help:
 	@echo ... Array/167.twoSum.obj
 	@echo ... Array/167.twoSum.i
 	@echo ... Array/167.twoSum.s
+	@echo ... Array/3.lengthOfLongestSubstring.obj
+	@echo ... Array/3.lengthOfLongestSubstring.i
+	@echo ... Array/3.lengthOfLongestSubstring.s
 	@echo ... Array/34.searchRange.obj
 	@echo ... Array/34.searchRange.i
 	@echo ... Array/34.searchRange.s

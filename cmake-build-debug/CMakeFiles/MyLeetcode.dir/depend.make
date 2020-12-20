@@ -5,11 +5,15 @@ CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj: ../Array/1480.runningSum.
 
 CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj: ../Array/167.twoSum.c
 
+CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.obj: ../Array/3.lengthOfLongestSubstring.c
+CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.obj: ../Array/ArrayHeaderFile.h
+
 CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj: ../Array/34.searchRange.c
 
 CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj: ../Array/561.arrayPairSum.c
 
 CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj: ../Array/64.minPathSum.c
+CMakeFiles/MyLeetcode.dir/Array/64.minPathSum.c.obj: ../Array/ArrayHeaderFile.h
 
 CMakeFiles/MyLeetcode.dir/Array/665.checkPossibility.c.obj: ../Array/665.checkPossibility.c
 
