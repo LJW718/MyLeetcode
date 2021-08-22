@@ -50,6 +50,13 @@ git reset HEAD 命令用于取消已缓存的内容 : git reset HEAD xxx.c
 
 提交 : git commit -am "【第50题】计算x的n次幂函数"
 
+
+增加/删除文件到缓冲区 : git add/rm  [file]
+
+git reset HEAD 命令用于取消已缓存的内容 : git reset HEAD xxx.c
+
+提交 : git commit -am "【第50题】计算x的n次幂函数"
+
 推送到远端仓库(默认本地分支和远端分支同名) : git  push origin master
 
 
