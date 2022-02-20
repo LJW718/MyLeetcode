@@ -5,6 +5,7 @@
 
 #include "String/StringHeaderFile.h"
 #include "Array/ArrayHeaderFile.h"
+#include "UT_hash/uthash.h"
 
 #define ARRAY_SIZE(nums) ((sizeof(nums)) / (sizeof(nums[0])))
 
@@ -48,6 +49,8 @@ int main() {
     checkPossibility(nums3, ARRAY_SIZE(nums));
 
     lengthOfLongestSubstring("abcabcbb");
+
+    Test1();
 
     return 0;
 }
