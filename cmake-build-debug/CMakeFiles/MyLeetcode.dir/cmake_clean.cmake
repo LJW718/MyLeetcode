@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj"
+  "CMakeFiles/MyLeetcode.dir/Array/18-fourSum.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj"
   "CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
@@ -16,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
   "CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj"
   "CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj"
+  "CMakeFiles/MyLeetcode.dir/UT_hash/ut_hash_test.c.obj"
   "CMakeFiles/MyLeetcode.dir/main.c.obj"
   "MyLeetcode.exe"
   "MyLeetcode.exe.manifest"

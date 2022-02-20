@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/MyLeetcode/Array/3.lengthOfLongestSubstring.c
+E:/GitHub/MyLeetcode/UT_hash/ut_hash_test.c
+uthash.h
+E:/GitHub/MyLeetcode/UT_hash/uthash.h
+stdlib.h
+-
 stdio.h
 -
+
+E:/GitHub/MyLeetcode/UT_hash/uthash.h
 string.h
 -
-ArrayHeaderFile.h
-E:/GitHub/MyLeetcode/Array/ArrayHeaderFile.h
-
-E:/GitHub/MyLeetcode/Array/ArrayHeaderFile.h
-stdbool.h
+stddef.h
+-
+stdlib.h
+-
+stdint.h
+-
+stdio.h
 -
 

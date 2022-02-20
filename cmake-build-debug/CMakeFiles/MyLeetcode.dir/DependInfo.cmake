@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "E:/GitHub/MyLeetcode/Array/1480.runningSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/1480.runningSum.c.obj"
   "E:/GitHub/MyLeetcode/Array/167.twoSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/167.twoSum.c.obj"
+  "E:/GitHub/MyLeetcode/Array/18-fourSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/18-fourSum.c.obj"
   "E:/GitHub/MyLeetcode/Array/3.lengthOfLongestSubstring.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/3.lengthOfLongestSubstring.c.obj"
   "E:/GitHub/MyLeetcode/Array/34.searchRange.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/34.searchRange.c.obj"
   "E:/GitHub/MyLeetcode/Array/561.arrayPairSum.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/Array/561.arrayPairSum.c.obj"
@@ -21,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/GitHub/MyLeetcode/String/22.generateParenthesis.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/22.generateParenthesis.c.obj"
   "E:/GitHub/MyLeetcode/String/537.complexNumberMultiply.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/537.complexNumberMultiply.c.obj"
   "E:/GitHub/MyLeetcode/String/890.findAndReplacePattern.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/String/890.findAndReplacePattern.c.obj"
+  "E:/GitHub/MyLeetcode/UT_hash/ut_hash_test.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/UT_hash/ut_hash_test.c.obj"
   "E:/GitHub/MyLeetcode/main.c" "E:/GitHub/MyLeetcode/cmake-build-debug/CMakeFiles/MyLeetcode.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
