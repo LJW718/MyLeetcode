@@ -93,7 +93,7 @@ void BianliNode() {
     return;
 }
 
-int Test1() {
+int HashTest1() {
     HAST_TEST *obj = Create(99);
     int start = 100;
     for (int i = 1; i <= 100; i++) {

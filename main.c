@@ -6,6 +6,7 @@
 #include "String/StringHeaderFile.h"
 #include "Array/ArrayHeaderFile.h"
 #include "UT_hash/uthash.h"
+#include "CBase/cbase.h"
 
 #define ARRAY_SIZE(nums) ((sizeof(nums)) / (sizeof(nums[0])))
 
@@ -50,7 +51,9 @@ int main() {
 
     lengthOfLongestSubstring("abcabcbb");
 
-    Test1();
+    HashTest1();
+
+	BigLittleEndian();
 
     return 0;
 }
