@@ -28,13 +28,26 @@
       </path>
     </select>
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="MyLeetcode" targetName="MyLeetcode" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
+<<<<<<< HEAD
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a488013-a83b-4f95-bed7-b94d66a74e8e" name="Default Changelist" comment="添加CBase目录，存放C语言相关应用程序代码" />
+=======
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
@@ -74,6 +87,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MyLeetcode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MyLeetcode.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
+>>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +100,26 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CBase/cbase.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CBase/cbase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Math/50.myPow.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PublicHeaderFile.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/String/22.generateParenthesis.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/String/537.complexNumberMultiply.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/String/StringHeaderFile.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UT_hash/ut_hash_test.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UT_hash/uthash.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="1dnnOruZWDhsMAhRTjSACEeOMIu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,23 +129,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "E:/GitHub/MyLeetcode",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "fileTemplates"
+  }
+}]]></component>
   <component name="RunManager">
+<<<<<<< HEAD
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+=======
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+>>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="MyLeetcode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyLeetcode" TARGET_NAME="MyLeetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyLeetcode" RUN_TARGET_NAME="MyLeetcode">
+=======
     <configuration name="MyLeetcode" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyLeetcode" TARGET_NAME="MyLeetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyLeetcode" RUN_TARGET_NAME="MyLeetcode">
+>>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -140,7 +192,20 @@
       <workItem from="1595140837637" duration="611000" />
       <workItem from="1608458781755" duration="1764000" />
       <workItem from="1608466314923" duration="376000" />
+<<<<<<< HEAD
+      <workItem from="1645362959145" duration="6935000" />
+      <workItem from="1645954365814" duration="900000" />
+      <workItem from="1645958511100" duration="1773000" />
+      <workItem from="1655621988399" duration="635000" />
+      <workItem from="1662719311743" duration="133000" />
+      <workItem from="1662719548845" duration="185000" />
+      <workItem from="1662719945432" duration="659000" />
+      <workItem from="1662959506960" duration="1183000" />
+      <workItem from="1662960726308" duration="293000" />
+      <workItem from="1662961495184" duration="5164000" />
+=======
       <workItem from="1645362959145" duration="6367000" />
+>>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c
     </task>
     <task id="LOCAL-00001" summary="新增CMake工程">
       <created>1593069846068</created>
@@ -275,7 +340,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593365886439</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="146. UT_hash初步学习使用">
+      <created>1645369523792</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1645369523792</updated>
+    </task>
+    <task id="LOCAL-00021" summary="146. UT_hash初步学习使用">
+      <created>1645369824219</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1645369824219</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加CBase目录，存放C语言相关应用程序代码">
+      <created>1662966443892</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662966443892</updated>
+    </task>
+    <task id="LOCAL-00023" summary="添加CBase目录，存放C语言相关应用程序代码">
+      <created>1662966539142</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662966539142</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +394,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -318,10 +410,19 @@
     <MESSAGE value="50. Pow(x, n)" />
     <MESSAGE value="17. 电话号码的字母组合" />
     <MESSAGE value="02.01. 移除重复节点" />
-    <MESSAGE value="1480. 一维数组的动态和" />
     <MESSAGE value="64. 最小路径和" />
     <MESSAGE value="537. 复数乘法" />
     <MESSAGE value="665. 非递减数列" />
-    <option name="LAST_COMMIT_MESSAGE" value="665. 非递减数列" />
+    <MESSAGE value="1480. 一维数组的动态和" />
+    <MESSAGE value="146. UT_hash初步学习使用" />
+    <MESSAGE value="添加CBase目录，存放C语言相关应用程序代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加CBase目录，存放C语言相关应用程序代码" />
   </component>
+<<<<<<< HEAD
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+=======
+>>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c
 </project>

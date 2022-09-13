@@ -17,6 +17,7 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
+
 set(CMAKE_AR "D:/Program Files/MinGW64/bin/ar.exe")
 set(CMAKE_C_COMPILER_AR "D:/Program Files/MinGW64/bin/gcc-ar.exe")
 set(CMAKE_RANLIB "D:/Program Files/MinGW64/bin/ranlib.exe")
@@ -47,6 +48,7 @@ set(CMAKE_C_LINKER_PREFERENCE 10)
 # Save compiler ABI information.
 set(CMAKE_C_SIZEOF_DATA_PTR "8")
 set(CMAKE_C_COMPILER_ABI "")
+set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_C_LIBRARY_ARCHITECTURE "")
 
 if(CMAKE_C_SIZEOF_DATA_PTR)
