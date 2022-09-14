@@ -14,8 +14,6 @@ CLion 2020.1.2 + MingW64
 # 代码框架介绍
 ```
 MyLeetCode
-    |——.idea  //工具自动生成，无需手动修改（下载后可删除）
-    |——cmake-bulid-debug  //工具调试生成的目录，无需手动修改（下载后可删除）
     |——CMakeList.txt  //cmake列表，工具自动生成，可手动修改
     |——Array  //数组相关题目代码目录
     |——List   //链表相关题目代码目录
