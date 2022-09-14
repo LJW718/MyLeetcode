@@ -38,7 +38,6 @@ struct ListNode* swapPairs(struct ListNode* head);
 //Math
 //50. Pow(x, n)
 double myPow(double x, int n);
-int Test1();
 
 // UT_hash
 int HashTest1();

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 "D:\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MyLeetcode.dir/objects.a
 D:\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\MyLeetcode.dir/objects.a @CMakeFiles\MyLeetcode.dir\objects1.rsp
 D:\CLION2~1.1\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\MyLeetcode.dir/objects.a -Wl,--no-whole-archive -o MyLeetcode.exe -Wl,--out-implib,libMyLeetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyLeetcode.dir\linklibs.rsp
-=======
-"D:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MyLeetcode.dir/objects.a
-"D:\Program Files\MinGW64\bin\ar.exe" cr CMakeFiles\MyLeetcode.dir/objects.a @CMakeFiles\MyLeetcode.dir\objects1.rsp
-"D:\Program Files\MinGW64\bin\gcc.exe" -g   -Wl,--whole-archive CMakeFiles\MyLeetcode.dir/objects.a -Wl,--no-whole-archive  -o MyLeetcode.exe -Wl,--out-implib,libMyLeetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyLeetcode.dir\linklibs.rsp
->>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 "D:\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S E:\GitHub\MyLeetcode -B E:\GitHub\MyLeetcode\cmake-build-debug
-=======
-"D:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\GitHub\MyLeetcode
->>>>>>> 32f5f7b3ad296f0515d33a1de7dab1684a96566c
 -- Configuring done
 -- Generating done
 -- Build files have been written to: E:/GitHub/MyLeetcode/cmake-build-debug
