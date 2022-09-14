@@ -9,7 +9,7 @@
 4、本项目仅作为业余爱好创建，欢迎下载，欢迎指正！
 
 # 开发工具
-CLion 2020.1.2 + MingW64
+CLion + MingW64
 
 # 代码框架介绍
 ```
@@ -28,8 +28,6 @@ MyLeetCode
 为了减少测试用例定义过多变量来接受函数返回值，在函数返回之前，打印函数返回结果
 ```
 
-_如果遇到项目无法构建情况（项目代码完整），可手动删除.idea和cmake-bulid-debug文件，然后退出IDE,重新加载此项目即可。_
-
 **常用git命令:**
 
 克隆远端仓库到本地 : git clone https://github.com/LJW718/MyLeetcode.git
@@ -43,13 +41,6 @@ _如果遇到项目无法构建情况（项目代码完整），可手动删除.
 删除本地分支 : git branch -d  br_name
 
 删除远程分支 : git push origin --delete  br_name
-
-增加/删除文件到缓冲区 : git add/rm  [file]
-
-git reset HEAD 命令用于取消已缓存的内容 : git reset HEAD xxx.c
-
-提交 : git commit -am "【第50题】计算x的n次幂函数"
-
 
 增加/删除文件到缓冲区 : git add/rm  [file]
 
