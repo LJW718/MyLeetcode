@@ -4,24 +4,24 @@
  */
 
 /*
-18. ËÄÊıÖ®ºÍ
-¸øÄãÒ»¸öÓÉ n ¸öÕûÊı×é³ÉµÄÊı×é nums £¬ºÍÒ»¸öÄ¿±êÖµ target ¡£ÇëÄãÕÒ³ö²¢·µ»ØÂú×ãÏÂÊöÈ«²¿Ìõ¼şÇÒ²»ÖØ¸´µÄËÄÔª×é [nums[a], nums[b], nums[c], nums[d]] £º
+18. å››æ•°ä¹‹å’Œ
+ç»™ä½ ä¸€ä¸ªç”± n ä¸ªæ•´æ•°ç»„æˆçš„æ•°ç»„ nums ï¼Œå’Œä¸€ä¸ªç›®æ ‡å€¼ target ã€‚è¯·ä½ æ‰¾å‡ºå¹¶è¿”å›æ»¡è¶³ä¸‹è¿°å…¨éƒ¨æ¡ä»¶ä¸”ä¸é‡å¤çš„å››å…ƒç»„ [nums[a], nums[b], nums[c], nums[d]] ï¼š
 
 0 <= a, b, c, d < n
-a¡¢b¡¢c ºÍ d »¥²»ÏàÍ¬
+aã€bã€c å’Œ d äº’ä¸ç›¸åŒ
 nums[a] + nums[b] + nums[c] + nums[d] == target
-Äã¿ÉÒÔ°´ ÈÎÒâË³Ğò ·µ»Ø´ğ°¸ ¡£
+ä½ å¯ä»¥æŒ‰ ä»»æ„é¡ºåº è¿”å›ç­”æ¡ˆ ã€‚
 
 
 
-Ê¾Àı 1£º
+ç¤ºä¾‹ 1ï¼š
 
-ÊäÈë£ºnums = [1,0,-1,0,-2,2], target = 0
-Êä³ö£º[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
-Ê¾Àı 2£º
+è¾“å…¥ï¼šnums = [1,0,-1,0,-2,2], target = 0
+è¾“å‡ºï¼š[[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+ç¤ºä¾‹ 2ï¼š
 
-ÊäÈë£ºnums = [2,2,2,2,2], target = 8
-Êä³ö£º[[2,2,2,2]]
+è¾“å…¥ï¼šnums = [2,2,2,2,2], target = 8
+è¾“å‡ºï¼š[[2,2,2,2]]
 */
 
 /**
@@ -32,65 +32,67 @@ nums[a] + nums[b] + nums[c] + nums[d] == target
 
 #include<stdio.h>
 #include<malloc.h>
+#include <string.h>
+
 #define MAX_SIZE 100000
 
 
 int Cmp(const void* a, const void* b) {
-	return *(int*)a - *(int*)b;
+    return *(int*)a - *(int*)b;
 }
 
 int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
-	*returnSize = 0;
-	*returnColumnSizes = (int*)malloc(sizeof(int) * MAX_SIZE);
-	memset((*returnColumnSizes), 0, sizeof(int) * MAX_SIZE);
-	if (nums == NULL || numsSize < 4) {
-		return NULL;
-	}
+    *returnSize = 0;
+    *returnColumnSizes = (int*)malloc(sizeof(int) * MAX_SIZE);
+    memset((*returnColumnSizes), 0, sizeof(int) * MAX_SIZE);
+    if (nums == NULL || numsSize < 4) {
+        return NULL;
+    }
 
-	int** res = (int**)malloc(sizeof(int*) * MAX_SIZE);
-	memset(res, 0, sizeof(int*) * MAX_SIZE);
-	qsort(nums, numsSize, sizeof(int), Cmp);
-	if (target >= 0 && nums[0] > target) {
-		return NULL;
-	}
-	int a, b, c, d;
-	for (a = 0; a <= numsSize - 4; a++) {
-		// printf("a = %d\n", a);
-		if (a > 0 && nums[a - 1] == nums[a]) {
-			continue;	// È¥ÖØ¸´
-		}
-		for (b = a + 1; b <= numsSize - 3; b++) {
-			if (b > a + 1 && nums[b] == nums[b - 1]) {
-				continue; // È¥ÖØ¸´
-			}
-			c = b + 1;
-			d = numsSize - 1;
-			while (c < d) {
-				if (nums[a] + nums[b] + nums[c] + nums[d] < target) {
-					c++;
-				}
-				else if (nums[a] + nums[b] + nums[c] + nums[d] > target) {
-					d--;
-				}
-				else {
-					res[*returnSize] = (int*)malloc(sizeof(int) * 4);
-					res[*returnSize][0] = nums[a];
-					res[*returnSize][1] = nums[b];
-					res[*returnSize][2] = nums[c];
-					res[*returnSize][3] = nums[d];
-					(*returnColumnSizes)[*returnSize] = 4;
-					(*returnSize) += 1;
-					while (c < d && nums[c] == nums[c + 1]) {
-						c++;
-					}
-					while (c < d && nums[d - 1] == nums[d]) {
-						d--;
-					}
-					c++;
-					d--;
-				}
-			}
-		}
-	}
-	return res;
+    int** res = (int**)malloc(sizeof(int*) * MAX_SIZE);
+    memset(res, 0, sizeof(int*) * MAX_SIZE);
+    qsort(nums, numsSize, sizeof(int), Cmp);
+    if (target >= 0 && nums[0] > target) {
+        return NULL;
+    }
+    int a, b, c, d;
+    for (a = 0; a <= numsSize - 4; a++) {
+        // printf("a = %d\n", a);
+        if (a > 0 && nums[a - 1] == nums[a]) {
+            continue;	// å»é‡å¤
+        }
+        for (b = a + 1; b <= numsSize - 3; b++) {
+            if (b > a + 1 && nums[b] == nums[b - 1]) {
+                continue; // å»é‡å¤
+            }
+            c = b + 1;
+            d = numsSize - 1;
+            while (c < d) {
+                if (nums[a] + nums[b] + nums[c] + nums[d] < target) {
+                    c++;
+                }
+                else if (nums[a] + nums[b] + nums[c] + nums[d] > target) {
+                    d--;
+                }
+                else {
+                    res[*returnSize] = (int*)malloc(sizeof(int) * 4);
+                    res[*returnSize][0] = nums[a];
+                    res[*returnSize][1] = nums[b];
+                    res[*returnSize][2] = nums[c];
+                    res[*returnSize][3] = nums[d];
+                    (*returnColumnSizes)[*returnSize] = 4;
+                    (*returnSize) += 1;
+                    while (c < d && nums[c] == nums[c + 1]) {
+                        c++;
+                    }
+                    while (c < d && nums[d - 1] == nums[d]) {
+                        d--;
+                    }
+                    c++;
+                    d--;
+                }
+            }
+        }
+    }
+    return res;
 }
