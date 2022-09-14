@@ -26,7 +26,7 @@
 
 #define MIN(a, b) ((a) > (b) ? (b) : (a))
 
-int minPathSum(int** grid, int gridSize, int* gridColSize)
+int minPathSum(int** grid, int gridSize, const int* gridColSize)
 {
     if (grid == NULL || *grid == NULL) {
         return-1;
@@ -38,21 +38,22 @@ int minPathSum(int** grid, int gridSize, int* gridColSize)
         for (int i = 0; i < row; i++) {
             dp[i] = (int *)malloc(sizeof(int) * col);
         }
-    }
-    dp[0][0] = grid[0][0];
-    int i, j;
-    for (j = 1; j < col; j++) {
-        dp[0][j] = dp[0][j-1] + grid[0][j];
-    }
-    for (i = 1; i < row; i++) {
-        dp[i][0] = dp[i-1][0] + grid[i][0];
-    }
-    for (i = 1; i < row; i++) {
+        dp[0][0] = grid[0][0];
+        int i, j;
         for (j = 1; j < col; j++) {
-            dp[i][j] = MIN(dp[i-1][j], dp[i][j-1]) + grid[i][j];
+            dp[0][j] = dp[0][j-1] + grid[0][j];
         }
+        for (i = 1; i < row; i++) {
+            dp[i][0] = dp[i-1][0] + grid[i][0];
+        }
+        for (i = 1; i < row; i++) {
+            for (j = 1; j < col; j++) {
+                dp[i][j] = MIN(dp[i-1][j], dp[i][j-1]) + grid[i][j];
+            }
+        }
+        printf("64.minPathSum = %d\n", dp[i-1][j-1]);
+        return dp[i-1][j-1];
     }
-    printf("64.minPathSum = %d\n", dp[i-1][j-1]);
-    return dp[i-1][j-1];
+    return -1;
 }
 

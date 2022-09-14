@@ -54,7 +54,6 @@ void  AddNode(HAST_TEST *obj, int key, int value) {
     } else {
         printf("curCnt = %d, Capacity %d is overload \n", obj->curCnt, obj->capacity);
     }
-    return;
 }
 
 int  GetNode(HAST_TEST *obj, int key) {
@@ -90,7 +89,6 @@ void BianliNode() {
            printf("key = %d, value = %d\n", node->key, node->value);
         }
     }
-    return;
 }
 
 int HashTest1() {
@@ -110,7 +108,7 @@ int HashTest1() {
 
     value = GetNode(obj, key);
     printf("key = %d, value = %d\n", key, value);
-
+    return 0;
 }
 
 

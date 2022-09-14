@@ -27,7 +27,6 @@
  */
 
 #include <malloc.h>
-#include <stdio.h>
 
 struct ListNode {
      int val;
@@ -64,7 +63,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
                 jinwei = 0;
             }
             l1 = l1->next;
-        } else if (l2) {
+        } else {
             if (l2->val+jinwei >= 10) {  //进位
                 arr[i] = l2->val + jinwei - 10;
                 jinwei = 1;

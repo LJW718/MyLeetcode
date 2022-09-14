@@ -37,7 +37,7 @@
 #include <malloc.h>
 
 
-int FillResultWithNums(int *result, int *nums, int numsSize)
+int FillResultWithNums(int *result, const int *nums, int numsSize)
 {
     int tmp = 0;
     for (int i = 0; i < numsSize; i++) {

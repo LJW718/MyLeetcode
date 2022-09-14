@@ -42,7 +42,7 @@ int lengthOfLongestSubstring(char * s)
     if (s == NULL) {
         return 0;
     }
-    int sSize = strlen(s);
+    size_t sSize = strlen(s);
     int start = 0;
     int end = 0;
     int windowSize = 0;

@@ -65,8 +65,7 @@ double pow_quick(double x, int n){
 }
 
 double myPow(double x, int n){
-    double tmp = 0;
-    tmp = pow_quick(x, n);
+    double tmp = pow_quick(x, n);
     printf("50.myPow: x = %f, n = %d, myPow = %f\n", x, n, tmp);
     return tmp;
 }

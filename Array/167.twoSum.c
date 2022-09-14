@@ -26,7 +26,7 @@
  */
 
 
-int FileResultWithNumbers(int *result, int *numbers, int numbersSize, int target)
+int FileResultWithNumbers(int *result, const int *numbers, int numbersSize, int target)
 {
     int i = 0;
     int j = numbersSize - 1;

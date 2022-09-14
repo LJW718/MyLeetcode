@@ -25,8 +25,6 @@
 */
 
 #include <stdio.h>
-#include <malloc.h>
-#include <string.h>
 
 #define FAIL -1
 #define SUC  0
