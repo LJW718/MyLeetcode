@@ -1,4 +1,0 @@
-"D:\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S E:\GitHub\MyLeetcode -B E:\GitHub\MyLeetcode\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: E:/GitHub/MyLeetcode/cmake-build-debug
