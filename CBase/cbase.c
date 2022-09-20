@@ -20,3 +20,34 @@ int BigLittleEndian() {
 	}
 	return 0;
 }
+
+typedef struct _BIT_FIELD_STRUCT {
+    UINT8 a:1;
+    UINT8 b:3;
+    UINT8 c:4;
+    UINT8 d;
+}BIT_FIELD_STRUCT;
+
+void BitFieldTest() {
+    printf("BitFieldTest:\n");
+    BIT_FIELD_STRUCT xx;
+    printf("sizeof(BIT_FIELD_STRUCT) = %llu\n", sizeof(BIT_FIELD_STRUCT));
+    xx.a = 2;
+    xx.b = 8;
+    xx.c = 17;
+    xx.d = 20;
+    printf("abc out of bounds: a = %d, b = %d, c = %d, d = %d\n", xx.a, xx.b, xx.c, xx.d);
+    xx.a = 1;
+    xx.b = 7;
+    xx.c = 15;
+    xx.d = 20;
+    printf("abc not out of bounds: a = %d, b = %d, c = %d, d = %d\n", xx.a, xx.b, xx.c, xx.d);
+}
+
+void BitShiftTest() {
+    printf("BitShiftTest:\n");
+    UINT8 arr1[4] = {0x12, 0x34, 0x56, 0x78};
+    UINT16 OI = (UINT16)(arr1[0] << 8);
+    OI |= (UINT16)(arr1[1]);
+    printf("OI = %x\n", OI);
+}

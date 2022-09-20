@@ -55,5 +55,9 @@ int main() {
 
 	BigLittleEndian();
 
+    BitFieldTest();
+
+    BitShiftTest();
+
     return 0;
 }
