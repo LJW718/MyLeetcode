@@ -59,5 +59,7 @@ int main() {
 
     BitShiftTest();
 
+    TestFuncPtr(5, 10);
+
     return 0;
 }

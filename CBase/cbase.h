@@ -26,4 +26,17 @@ void BitFieldTest();
 
 // 移位运算测试函数
 void BitShiftTest();
+
+/**************************************函数指针******************************************/
+#define MAX_NUM 10
+typedef void (*Print)(UINT8 res);
+typedef UINT8 (*Sum)(UINT8 a, UINT8 b);
+
+typedef struct {
+    Print pPrint;
+    Sum pSum;
+}FUNC_PTR_T;
+
+void TestFuncPtr(UINT8 a, UINT8 b);
+
 #endif //MYLEETCODE_CBASE_H

@@ -51,3 +51,28 @@ void BitShiftTest() {
     OI |= (UINT16)(arr1[1]);
     printf("OI = %x\n", OI);
 }
+
+/**************************************函数指针******************************************/
+void PrintRes(UINT8 res) {
+    printf("res = %d\n", res);
+}
+
+UINT8 SumXY(UINT8 x, UINT8 y) {
+    return x + y;
+}
+
+const FUNC_PTR_T gFuncPtr[MAX_NUM] = {
+        {PrintRes, SumXY},
+};
+
+void TestFuncPtr(UINT8 a, UINT8 b) {
+    UINT8 num = sizeof(gFuncPtr) / sizeof(gFuncPtr[0]);
+    for (UINT8 i = 0; i < num; i++) {
+        Print prt = gFuncPtr[i].pPrint;
+        Sum summ = gFuncPtr[i].pSum;
+        UINT8 res = summ(a, b);
+        printf("TestFuncPtr:\n");
+        prt(res);
+    }
+}
+
