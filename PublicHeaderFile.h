@@ -5,6 +5,9 @@
 #ifndef MYLEETCODE_PUBLICHEADERFILE_H
 #define MYLEETCODE_PUBLICHEADERFILE_H
 
+#include <stddef.h>
+#include <stdlib.h>
+
 //Arrays
 //34. 在排序数组中查找元素的第一个和最后一个位置
 int* searchRange(int* nums, int numsSize, int target, int* returnSize);

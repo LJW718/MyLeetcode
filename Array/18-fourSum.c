@@ -33,6 +33,7 @@ nums[a] + nums[b] + nums[c] + nums[d] == target
 #include<stdio.h>
 #include<malloc.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define MAX_SIZE 100000
 
