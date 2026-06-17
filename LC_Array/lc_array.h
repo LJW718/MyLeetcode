@@ -3,13 +3,13 @@
  *Copyright (c) 2020 https://github.com/LJW718/MyLeetcode. All rights reserved.
  */
 
-#ifndef MYLEETCODE_ARRAYHEADERFILE_H
-#define MYLEETCODE_ARRAYHEADERFILE_H
+#ifndef __LC_ARRAY_H__
+#define __LC_ARRAY_H__
 
-#define MAX(a, b) ((a) > (b) ? (a) : (b))
-#define MIN(a, b) ((a) < (b) ? (a) : (b))
-
+#include <stdio.h>
+#include <search.h>
 #include <stdbool.h>
+#include "pub_def.h"
 
 //665. 非递减数列
 bool checkPossibility(int* nums, int numsSize);
@@ -18,10 +18,10 @@ bool checkPossibility(int* nums, int numsSize);
 int lengthOfLongestSubstring(char * s);
 
 //34. 在排序数组中查找元素的第一个和最后一个位置
-int* searchRange(int* nums, int numsSize, int target, int* returnSize);
+int* searchRange(const int* nums, int numsSize, int target, int* returnSize);
 
 //64. 最小路径和
-int minPathSum(int** grid, int gridSize, int* gridColSize);
+int minPathSum(int** grid, int gridSize, const int* gridColSize);
 
 //167. 两数之和 II - 输入有序数组
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize);
@@ -31,5 +31,7 @@ int arrayPairSum(int* nums, int numsSize);
 
 //1480. 一维数组的动态和
 int* runningSum(int* nums, int numsSize, int* returnSize);
+
+void LC_Array_Demo(void);
 
 #endif //MYLEETCODE_ARRAYHEADERFILE_H

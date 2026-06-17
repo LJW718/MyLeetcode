@@ -29,8 +29,7 @@
  */
 
 
-#include <stdio.h>
-#include <malloc.h>
+#include "lc_string.h"
 
 #define  MAX_SIZE 1024
 
@@ -46,6 +45,6 @@ char * complexNumberMultiply(char * a, char * b)
     sscanf(b,"%d+%di",&realNumc, &realNumd);
     snprintf(result, 1024,"%d+%di",(realNuma * realNumc - realNumb * realNumd),
                                              (realNumb * realNumc + realNuma * realNumd));
-    printf("\n537.complexNumberMultiply = %s\n", result);
+    LOG_DEBUG("result = %s", result);
     return result;
 }

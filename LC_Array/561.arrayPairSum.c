@@ -2,6 +2,8 @@
 // Created by Administrator on 2020/6/24 0024.
 //
 
+#include "lc_array.h"
+
 /*
  * 561. 数组拆分 I
 给定长度为 2n 的数组, 你的任务是将这些数分成 n 对, 例如 (a1, b1), (a2, b2), ..., (an, bn) ，使得从1 到 n 的 min(ai, bi) 总和最大。
@@ -29,9 +31,6 @@ n 是正整数,范围在 [1, 10000].
  也就是排序后的第一个、第三、第五、第n-1个元素之和
  */
 
-#include <stdio.h>
-#include <search.h>
-
 int cmp(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -46,6 +45,6 @@ int arrayPairSum(int* nums, int numsSize){
     for (int i = 0; i < numsSize; i += 2) {
         result += nums[i];
     }
-    printf("561.arrayPairSum : %d\n", result);
+    LOG_DEBUG("result : %d", result);
     return result;
 }

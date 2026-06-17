@@ -29,8 +29,7 @@ n 是 32 位有符号整数，其数值范围是 [−231, 231 − 1] 。
 //1,当n为偶数时，x(n) = (x * x)(n / 2)
 //2,当n为奇数时，x(n) = (x * x)((n - 1) / 2) * x
 
-#include <math.h>
-#include <stdio.h>
+#include "lc_math.h"
 
 double pow_quick(double x, int n){
     double  dRet = 1.0;
@@ -64,9 +63,10 @@ double pow_quick(double x, int n){
     return dRet;
 }
 
-double myPow(double x, int n){
+double myPow(double x, int n)
+{
     double tmp = pow_quick(x, n);
-    printf("50.myPow: x = %f, n = %d, myPow = %f\n", x, n, tmp);
+    LOG_DEBUG("x = %f, n = %d, myPow = %f\n", x, n, tmp);
     return tmp;
 }
 

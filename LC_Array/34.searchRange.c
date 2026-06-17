@@ -20,9 +20,7 @@
 输出: [-1,-1]
 */
 
-#include <stdio.h>
-#include <string.h>
-#include <malloc.h>
+#include "lc_array.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -52,7 +50,7 @@ int* searchRange(const int* nums, int numsSize, int target, int* returnSize){
         }
     }
     *returnSize = 2;
-    printf("34.searchRange: [%d,%d]\n", result[0], result[1]);
+    LOG_DEBUG("[%d,%d]", result[0], result[1]);
     return result;
 }
 

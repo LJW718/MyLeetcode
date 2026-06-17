@@ -20,11 +20,7 @@
 解释: 因为路径 1→3→1→1→1 的总和最小。
 */
 
-
-#include <stdio.h>
-#include <malloc.h>
-
-#define MIN(a, b) ((a) > (b) ? (b) : (a))
+#include "lc_array.h"
 
 int minPathSum(int** grid, int gridSize, const int* gridColSize)
 {
@@ -51,7 +47,7 @@ int minPathSum(int** grid, int gridSize, const int* gridColSize)
                 dp[i][j] = MIN(dp[i-1][j], dp[i][j-1]) + grid[i][j];
             }
         }
-        printf("64.minPathSum = %d\n", dp[i-1][j-1]);
+        LOG_DEBUG("result = %d", dp[i-1][j-1]);
         return dp[i-1][j-1];
     }
     return -1;

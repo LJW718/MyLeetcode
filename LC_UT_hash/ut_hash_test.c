@@ -2,8 +2,6 @@
 // Created by Administrator on 2022/2/20.
 //
 
-#include <stdlib.h>   /* malloc */
-#include <stdio.h>    /* printf */
 #include "ut_hash_test.h"
 
 // HASH_FIND_INT(g_hash, &key, temp);
@@ -52,7 +50,7 @@ void  AddNode(HAST_TEST *obj, int key, int value) {
         HASH_ADD_INT(g_hash, key, add);
         obj->curCnt++;
     } else {
-        printf("curCnt = %d, Capacity %d is overload \n", obj->curCnt, obj->capacity);
+        LOG_INFO("curCnt = %d, Capacity %d is overload", obj->curCnt, obj->capacity);
     }
 }
 
@@ -86,7 +84,7 @@ void BianliNode() {
     HASH_NODE_S *node, *temp = NULL;
     HASH_ITER(hh, g_hash, node, temp) {
         if (node != NULL) {
-           printf("key = %d, value = %d\n", node->key, node->value);
+           LOG_DEBUG("key = %d, value = %d", node->key, node->value);
         }
     }
 }
@@ -103,12 +101,17 @@ int HashTest1() {
     BianliNode();
     int key = 12;
     int value = GetNode(obj, key);
-    printf("key = %d, value = %d\n", key, value);
+    LOG_INFO("key = %d, value = %d", key, value);
     AddNode(obj, key, 55);
 
     value = GetNode(obj, key);
-    printf("key = %d, value = %d\n", key, value);
+    LOG_INFO("key = %d, value = %d", key, value);
     return 0;
 }
 
-
+void LC_UT_Hash_Demo(void)
+{
+    FUNC_ENTRY();
+    HashTest1();
+    FUNC_EXIT();
+}

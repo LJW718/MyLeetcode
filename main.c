@@ -1,8 +1,3 @@
-
-#include <stdio.h>
-#include <malloc.h>
-#include "pub_def.h"
-
 #include "lc_string.h"
 #include "lc_array.h"
 #include "ut_hash_test.h"
@@ -10,51 +5,59 @@
 #include "lc_list.h"
 #include "lc_math.h"
 
-int main() {
+int main(void) {
     FUNC_ENTRY();
-    int nums[] = {2,7,11,15};
-    int returnSize = 0;
-    twoSum(nums, sizeof(nums)/sizeof(nums[0]), 9, &returnSize);
-    arrayPairSum(nums, sizeof(nums)/sizeof(nums[0]));
-    intToRoman(1234);
-    generateParenthesis(5, &returnSize);
-    int nums2[] = {5,7,7,8,8,10};
-    searchRange(nums2, ARRAY_SIZE(nums2), 8, &returnSize);
-    myPow(5.0, 6);
-    letterCombinations("234", &returnSize);
-    runningSum(nums, ARRAY_SIZE(nums),&returnSize);
 
+    LOG_INFO("-------------------- CHECK --------------------");
+    LOG_INFO("LC_ARRAY_DEBUG   : %d", LC_ARRAY_DEBUG);
+    LOG_INFO("LC_CBASE_DEBUG   : %d", LC_CBASE_DEBUG);
+    LOG_INFO("LC_LIST_DEBUG    : %d", LC_LIST_DEBUG);
+    LOG_INFO("LC_MATH_DEBUG    : %d", LC_MATH_DEBUG);
+    LOG_INFO("LC_STRING_DEBUG  : %d", LC_STRING_DEBUG);
+    LOG_INFO("LC_UTHASH_DEBUG  : %d", LC_UTHASH_DEBUG);
+    LOG_INFO("-------------------- CHECK --------------------\n");
 
-    int gridColSize = 3;
-    int **grid = (int **)malloc(sizeof(int *) * 3);
-    if (grid != NULL) {
-        for (int i = 0; i < 3; i++) {
-            grid[i] = (int *)malloc(sizeof(int) * 3);
-            for (int j = 0; j < 3; j++) {
-                grid[i][j] = i + j;
-            }
-        }
+    if (LC_ARRAY_DEBUG)
+    {
+        LOG_INFO("----------------LC_Array----------------");
+        LC_Array_Demo();
+        LOG_INFO("----------------LC_Array----------------\n");
     }
-    //minPathSum(grid, 3,&gridColSize);
-    complexNumberMultiply("1+-1i", "1+-1i");
 
-    //char words[5][10] = {"abcd", "aabb", "ccvv", "qweq", "sadw"};
-    //findAndReplacePattern(words, ARRAY_SIZE(words), "qqww", &returnSize);
+    if (LC_CBASE_DEBUG)
+    {
+        LOG_INFO("----------------LC_CBase----------------");
+        LC_CBase_Demo();
+        LOG_INFO("----------------LC_CBase----------------\n");
+    }
 
-    int nums3[] = {3,4,2,3};
-    checkPossibility(nums3, ARRAY_SIZE(nums));
+    if (LC_LIST_DEBUG)
+    {
+        LOG_INFO("----------------LC_List----------------");
+        LC_List_Demo();
+        LOG_INFO("----------------LC_List----------------\n");
+    }
 
-    lengthOfLongestSubstring("abcabcbb");
+    if (LC_MATH_DEBUG)
+    {
+        LOG_INFO("----------------LC_Math----------------");
+        LC_Math_Demo();
+        LOG_INFO("----------------LC_Math----------------\n");
+    }
 
-    HashTest1();
+    if (LC_STRING_DEBUG)
+    {
+        LOG_INFO("----------------LC_String----------------");
+        LC_String_Demo();
+        LOG_INFO("----------------LC_String----------------\n");
+    }
 
-	BigLittleEndian();
-
-    BitFieldTest();
-
-    BitShiftTest();
-
-    TestFuncPtr(5, 10);
+    if (LC_UTHASH_DEBUG)
+    {
+        LOG_INFO("----------------LC_UT_Hash----------------");
+        LC_UT_Hash_Demo();
+        LOG_INFO("----------------LC_UT_Hash----------------\n");
+    }
 
     FUNC_EXIT();
     return 0;

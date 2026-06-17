@@ -26,8 +26,7 @@
 - 10 ^ 5 <= nums[i] <= 10 ^ 5
  */
 
-#include <stdbool.h>
-#include <stdio.h>
+#include "lc_array.h"
 
 bool checkPossibility(int* nums, int numsSize)
 {
@@ -49,7 +48,7 @@ bool checkPossibility(int* nums, int numsSize)
             nums[i - 1] = nums[i];
         }
     }
-    printf("665.checkPossibility = %d\n", count <= 1);
+    LOG_DEBUG("result = %d", count <= 1);
     if (count > 1) {
         return false;
     }

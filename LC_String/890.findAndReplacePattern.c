@@ -24,13 +24,16 @@
 因为 a 和 b 映射到同一个字母。
  */
 
-#include <stdio.h>
+#include "lc_string.h"
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-char ** findAndReplacePattern(char ** words, int wordsSize, char * pattern, int* returnSize)
+char ** findAndReplacePattern(char words[][10], int wordsSize, char * pattern, UINT32* returnSize)
 {
+    UNUSED(wordsSize);
+    UNUSED(pattern);
+
     if(words == NULL || pattern == NULL) {
         *returnSize = 0;
         return NULL;

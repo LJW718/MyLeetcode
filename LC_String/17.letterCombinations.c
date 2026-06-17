@@ -19,23 +19,21 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
-#include <stdio.h>
-#include <malloc.h>
-#include <string.h>
+#include "lc_string.h"
 
 #define  MAX_SIZE  1024
 #define  STACK_SIZE 10
 
 
-void DFS(char * digits, int* returnSize, char **result, char **letters, char *stack, int digitSize)
+void DFS(char * digits, UINT32* returnSize, char **result, char **letters, char *stack, UINT32 digitSize)
 {
-    if (digitSize == strlen(digits)) {
+    if (digitSize == (UINT32)strlen(digits)) {
         result[(*returnSize)] = (char *)malloc(sizeof(char) * STACK_SIZE);
         strcpy(result[(*returnSize)], stack);
         (*returnSize) += 1;
         return;
     } else {
-        for (int j = 0; j < strlen(letters[digits[digitSize] - '0' - 2]); j++) {
+        for (UINT32 j = 0; j < strlen(letters[digits[digitSize] - '0' - 2]); j++) {
             stack[digitSize] = letters[digits[digitSize] - '0' - 2][j];
             DFS(digits, returnSize, result, letters, stack, digitSize + 1);
         }
@@ -44,7 +42,7 @@ void DFS(char * digits, int* returnSize, char **result, char **letters, char *st
 }
 
 
-char **letterCombinations(char * digits, int* returnSize)
+char **letterCombinations(char * digits, UINT32* returnSize)
 {
     (*returnSize) = 0;
     if (strlen(digits) == 0) {
@@ -54,9 +52,9 @@ char **letterCombinations(char * digits, int* returnSize)
     char stack[STACK_SIZE - 1] = {0};
     char **result = (char **)malloc(sizeof(char*) * MAX_SIZE);
     DFS(digits, returnSize, result, letterCom, stack, 0);
-    printf("17.letterCombinations :\n");
-    for (int i = 0; i < *returnSize; i++) {
-        printf("%s\n", result[i]);
+
+    for (UINT32 i = 0; i < *returnSize; i++) {
+        LOG_DEBUG("%s", result[i]);
     }
     return result;
 }

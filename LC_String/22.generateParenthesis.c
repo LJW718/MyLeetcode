@@ -24,15 +24,11 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
+#include "lc_string.h"
 
-#include <stdio.h>
-#include <malloc.h>
-#include <string.h>
 #define  MAX_SIZE 1024
 #define  SUC   0
 #define  FAIL -1
-
-#define  DEBUG  1
 
 int CheckParentheses(char *stack, int size)
 {
@@ -91,7 +87,7 @@ void FillResult(char **result, int n, int *count)
 }
 
 
-char ** generateParenthesis(int n, int* returnSize){
+char ** generateParenthesis(UINT32 n, UINT32* returnSize){
     int count = 0;
     char **result = (char **)malloc(sizeof(char *) * MAX_SIZE);
     if (n < 1 || result == NULL) {
@@ -100,11 +96,10 @@ char ** generateParenthesis(int n, int* returnSize){
         FillResult(result, n, &count);
     }
     *returnSize = count;
-#ifdef DEBUG
-    printf("22.generateParenthesis:\n");
-    for (int i = 0; i < *returnSize; i++) {
-        printf("%s\n", result[i]);
+
+    for (UINT32 i = 0; i < *returnSize; i++) {
+        LOG_DEBUG("%s", result[i]);
     }
-#endif
+
     return result;
 }

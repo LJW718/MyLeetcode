@@ -33,8 +33,6 @@
 s 由英文字母、数字、符号和空格组成
  * */
 
-#include <stdio.h>
-#include <string.h>
 #include "lc_array.h"
 
 int lengthOfLongestSubstring(char * s)
@@ -42,14 +40,14 @@ int lengthOfLongestSubstring(char * s)
     if (s == NULL) {
         return 0;
     }
-    size_t sSize = strlen(s);
-    int start = 0;
-    int end = 0;
-    int windowSize = 0;
-    int result = 0;
+    INT32 sSize = (INT32)strlen(s);
+    INT32 start = 0;
+    INT32 end = 0;
+    INT32 windowSize = 0;
+    INT32 result = 0;
     while (end < sSize) {
         char tmpChar = s[end];
-        for (int index = start; index < end; index++) {
+        for (INT32 index = start; index < end; index++) {
             if (tmpChar == s[index]) {
                 start = index + 1;
                 windowSize = end - start;
@@ -60,7 +58,7 @@ int lengthOfLongestSubstring(char * s)
         windowSize++;
         result = MAX(windowSize, result);
     }
-    printf("3.lengthOfLongestSubstring = %d \n", result);
+    LOG_DEBUG("result = %d", result);
     return result;
 
 }

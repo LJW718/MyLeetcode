@@ -1,9 +1,15 @@
 
-#ifndef __MATH_HEADER_FILE_H__
-#define __MATH_HEADER_FILE_H__
+#ifndef __LC_MATH_H__
+#define __LC_MATH_H__
+
+#include <math.h>
+#include <stdio.h>
+#include "pub_def.h"
 
 //50. Pow(x, n)
 double myPow(double x, int n);
+
+void LC_Math_Demo(void);
 
 #endif
 

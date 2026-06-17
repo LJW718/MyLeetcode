@@ -32,9 +32,7 @@
 -10^6 <= nums[i] <= 10^6
  */
 
-#include <stdio.h>
-#include <string.h>
-#include <malloc.h>
+#include "lc_array.h"
 
 
 int FillResultWithNums(int *result, const int *nums, int numsSize)
@@ -47,7 +45,8 @@ int FillResultWithNums(int *result, const int *nums, int numsSize)
     return 0;
 }
 
-int* runningSum(int* nums, int numsSize, int* returnSize){
+int* runningSum(int* nums, int numsSize, int* returnSize)
+{
     if (nums == NULL) {
         *returnSize = 0;
         return NULL;
@@ -58,9 +57,8 @@ int* runningSum(int* nums, int numsSize, int* returnSize){
         FillResultWithNums(result, nums, numsSize);
     }
     *returnSize = numsSize;
-    printf("1480.runningSum:\n");
     for (int i = 0; i < *returnSize; i++) {
-        printf("%d ", result[i]);
+        LOG_DEBUG("%d ", result[i]);
     }
     return result;
 }

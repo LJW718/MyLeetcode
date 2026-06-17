@@ -57,6 +57,6 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
         FileResultWithNumbers(result, numbers, numbersSize, target);
     }
     *returnSize = 2;
-    TRACE_PRINT("167.twoSum: index1 = %d, index2 = %d\n", result[0], result[1]);
+    LOG_DEBUG("target=%d, index1=%d, index2=%d", target, result[0], result[1]);
     return result;
 }

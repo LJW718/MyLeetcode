@@ -47,9 +47,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  */
 
-#include <malloc.h>
-#include <stdio.h>
-#include <string.h>
+#include "lc_array.h"
 
 #define ROMAN_MAXSIZE 5  //最大长度DCCC   加上末位'\0'
 
@@ -68,13 +66,13 @@ char * intToRoman(int num)
     while (i >= 0) {
         if (tmpNum / romanNum[i] > 0) {
             int tmp = tmpNum / romanNum[i];
-            //printf("tmpNum=%d,tmp=%d, roman[%d]=%s, romanNum=%d\n", tmpNum,tmp,i,romanCh[i],romanNum[i]);
-            strcat(result,romanCh[i]);
+            LOG_DEBUG("tmpNum=%d,tmp=%d, roman[%d]=%s, romanNum=%d", tmpNum, tmp, i, romanCh[i], romanNum[i]);
+            strcat(result, romanCh[i]);
             tmpNum %= romanNum[i];
         }
         --i;
     }
-    printf("12.intToRoman num = %d, Roman = %s\n", num, result);
+    LOG_INFO("num = %d, Roman = %s", num, result);
     return result;
 }
 
