@@ -2,9 +2,9 @@
 // Created by Administrator on 2022/2/20.
 //
 
-#include "uthash.h"
 #include <stdlib.h>   /* malloc */
 #include <stdio.h>    /* printf */
+#include "ut_hash_test.h"
 
 // HASH_FIND_INT(g_hash, &key, temp);
 // HASH_ADD_INT(g_hash, key, temp);

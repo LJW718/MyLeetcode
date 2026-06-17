@@ -9,19 +9,19 @@
 4、本项目仅作为业余爱好创建，欢迎下载，欢迎指正！
 
 # 开发工具
-CLion + MingW64
+CLion/VSCode + MingW64
 
 # 代码框架介绍
 ```
 MyLeetCode
     |——CMakeList.txt  //cmake列表，工具自动生成，可手动修改
-    |——Array  //数组相关题目代码目录
-    |——List   //链表相关题目代码目录
-    |——String //字符串相关题目代码目录
-    |——Math   //数学相关题目
-    |——UT_hash   //UT哈希
-    |——CBase   //C语言基础相关
-    |——PublicHeaderFile.h  //新增函数实现时，手动添加函数声明到此文件
+    |——LC_Array  //数组相关题目代码目录
+    |——LC_List   //链表相关题目代码目录
+    |——LC_String //字符串相关题目代码目录
+    |——LC_Math   //数学相关题目
+    |——LC_UT_hash   //UT哈希
+    |——LC_CBase   //C语言基础相关
+    |——pub_def.h  // 公共宏存放到此处
     |——main.c  //程序入口，在此文件中main()函数中调用代码目录中已实现接口
     |——README.md  
     |——其他

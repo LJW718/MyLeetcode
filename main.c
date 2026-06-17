@@ -1,22 +1,17 @@
 
 #include <stdio.h>
 #include <malloc.h>
-#include "PublicHeaderFile.h"
+#include "pub_def.h"
 
-#include "String/StringHeaderFile.h"
-#include "Array/ArrayHeaderFile.h"
-#include "UT_hash/uthash.h"
-#include "CBase/cbase.h"
-
-#define ARRAY_SIZE(nums) ((sizeof(nums)) / (sizeof(nums[0])))
-
-#define CLEAR_ARRAY(nums, numsSize) do { \
-    for (int i = 0; i < numsSize; i++) { \
-        nums[i] = 0;                     \
-    }                                    \
-} while(0);                              \
+#include "lc_string.h"
+#include "lc_array.h"
+#include "ut_hash_test.h"
+#include "cbase.h"
+#include "lc_list.h"
+#include "lc_math.h"
 
 int main() {
+    FUNC_ENTRY();
     int nums[] = {2,7,11,15};
     int returnSize = 0;
     twoSum(nums, sizeof(nums)/sizeof(nums[0]), 9, &returnSize);
@@ -61,5 +56,6 @@ int main() {
 
     TestFuncPtr(5, 10);
 
+    FUNC_EXIT();
     return 0;
 }

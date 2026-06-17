@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <string.h>
+#include "pub_def.h"
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -56,6 +57,6 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
         FileResultWithNumbers(result, numbers, numbersSize, target);
     }
     *returnSize = 2;
-    printf("167.twoSum: index1 = %d, index2 = %d\n", result[0], result[1]);
+    TRACE_PRINT("167.twoSum: index1 = %d, index2 = %d\n", result[0], result[1]);
     return result;
 }

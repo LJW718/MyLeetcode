@@ -35,7 +35,7 @@ s 由英文字母、数字、符号和空格组成
 
 #include <stdio.h>
 #include <string.h>
-#include "ArrayHeaderFile.h"
+#include "lc_array.h"
 
 int lengthOfLongestSubstring(char * s)
 {
