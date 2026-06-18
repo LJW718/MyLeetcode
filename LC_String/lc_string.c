@@ -3,6 +3,13 @@
 void LC_String_Demo(void)
 {
     FUNC_ENTRY();
+    LOG_INFO("LC_STRING_DEBUG = %d", LC_STRING_DEBUG);
+    if (!LC_STRING_DEBUG)
+    {
+        FUNC_EXIT();
+        return;
+    }
+
     intToRoman(1234);
 
     UINT32 returnSize = 0;

@@ -110,6 +110,13 @@ void TestFuncPtr(UINT8 a, UINT8 b)
 void LC_CBase_Demo(void)
 {
     FUNC_ENTRY();
+    LOG_INFO("LC_CBASE_DEBUG = %d", LC_CBASE_DEBUG);
+    if (!LC_CBASE_DEBUG)
+    {
+        FUNC_EXIT();
+        return;
+    }
+
     BigLittleEndian();
 
     BitFieldTest();

@@ -5,59 +5,37 @@
 #include "lc_list.h"
 #include "lc_math.h"
 
-int main(void) {
+// 日志等级默认LOG_LVL_DEBUG
+static UINT8 g_log_lvl = LOG_LVL_INVAILD;
+
+UINT8 get_loglevel(void)
+{
+    return g_log_lvl;
+}
+
+void set_loglevel(E_LOG_LVL lvl)
+{
+    g_log_lvl = lvl;
+}
+
+int main(void)
+{
+    // 设置LOG等级
+    set_loglevel(LOG_LVL_DEBUG);
     FUNC_ENTRY();
+    LOG_INFO("log lvl : %d, [1:ERROR, 2:WARN, 3:INFO, 4:DEBUG]", get_loglevel());
 
-    LOG_INFO("-------------------- CHECK --------------------");
-    LOG_INFO("LC_ARRAY_DEBUG   : %d", LC_ARRAY_DEBUG);
-    LOG_INFO("LC_CBASE_DEBUG   : %d", LC_CBASE_DEBUG);
-    LOG_INFO("LC_LIST_DEBUG    : %d", LC_LIST_DEBUG);
-    LOG_INFO("LC_MATH_DEBUG    : %d", LC_MATH_DEBUG);
-    LOG_INFO("LC_STRING_DEBUG  : %d", LC_STRING_DEBUG);
-    LOG_INFO("LC_UTHASH_DEBUG  : %d", LC_UTHASH_DEBUG);
-    LOG_INFO("-------------------- CHECK --------------------\n");
+    LC_Array_Demo();
 
-    if (LC_ARRAY_DEBUG)
-    {
-        LOG_INFO("----------------LC_Array----------------");
-        LC_Array_Demo();
-        LOG_INFO("----------------LC_Array----------------\n");
-    }
+    LC_CBase_Demo();
 
-    if (LC_CBASE_DEBUG)
-    {
-        LOG_INFO("----------------LC_CBase----------------");
-        LC_CBase_Demo();
-        LOG_INFO("----------------LC_CBase----------------\n");
-    }
+    LC_List_Demo();
 
-    if (LC_LIST_DEBUG)
-    {
-        LOG_INFO("----------------LC_List----------------");
-        LC_List_Demo();
-        LOG_INFO("----------------LC_List----------------\n");
-    }
+    LC_Math_Demo();
 
-    if (LC_MATH_DEBUG)
-    {
-        LOG_INFO("----------------LC_Math----------------");
-        LC_Math_Demo();
-        LOG_INFO("----------------LC_Math----------------\n");
-    }
+    LC_String_Demo();
 
-    if (LC_STRING_DEBUG)
-    {
-        LOG_INFO("----------------LC_String----------------");
-        LC_String_Demo();
-        LOG_INFO("----------------LC_String----------------\n");
-    }
-
-    if (LC_UTHASH_DEBUG)
-    {
-        LOG_INFO("----------------LC_UT_Hash----------------");
-        LC_UT_Hash_Demo();
-        LOG_INFO("----------------LC_UT_Hash----------------\n");
-    }
+    LC_UT_Hash_Demo();
 
     FUNC_EXIT();
     return 0;

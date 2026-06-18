@@ -112,6 +112,13 @@ int HashTest1() {
 void LC_UT_Hash_Demo(void)
 {
     FUNC_ENTRY();
+    LOG_INFO("LC_UTHASH_DEBUG = %d", LC_UTHASH_DEBUG);
+    if (!LC_UTHASH_DEBUG)
+    {
+        FUNC_EXIT();
+        return;
+    }
+
     HashTest1();
     FUNC_EXIT();
 }

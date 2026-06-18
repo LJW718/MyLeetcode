@@ -4,6 +4,12 @@
 void LC_Array_Demo(void)
 {
     FUNC_ENTRY();
+    LOG_INFO("LC_ARRAY_DEBUG = %d", LC_ARRAY_DEBUG);
+    if (!LC_ARRAY_DEBUG)
+    {
+        FUNC_EXIT();
+        return;
+    }
     int nums[] = {2,7,11,15};
     int returnSize = 0;
     twoSum(nums, sizeof(nums)/sizeof(nums[0]), 9, &returnSize);

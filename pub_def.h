@@ -52,15 +52,48 @@
 #define LOG_PRINT(level, fmt, ...) \
     fprintf(stderr, "[%s][%s:%d][%s]" fmt "\n", level, __FILENAME__, __LINE__, __func__, ##__VA_ARGS__)
 
+/* ------------------------------ 获取日志等级 ------------------------------ */
+UINT8 get_loglevel(void);
+
 /* ------------------------------ 四个等级日志宏 ------------------------------ */
-#define LOG_DEBUG(fmt, ...)  LOG_PRINT("DEBUG", fmt, ##__VA_ARGS__)
-#define LOG_INFO(fmt, ...)   LOG_PRINT("INFO",  fmt, ##__VA_ARGS__)
-#define LOG_WARN(fmt, ...)   LOG_PRINT("WARN",  fmt, ##__VA_ARGS__)
-#define LOG_ERROR(fmt, ...)  LOG_PRINT("ERROR", fmt, ##__VA_ARGS__)
+typedef enum
+{
+    LOG_LVL_INVAILD = 0,
+    LOG_LVL_ERROR,
+    LOG_LVL_WARN,
+    LOG_LVL_INFO,
+    LOG_LVL_DEBUG,
+    LOG_LVL_MAX,
+}E_LOG_LVL;
+
+
+#define LOG_ERROR(fmt, ...) do {                                                                    \
+	if(get_loglevel() >= LOG_LVL_ERROR) {                                                           \
+		LOG_PRINT("ERROR", fmt, ##__VA_ARGS__);                                                     \
+	}                                                                                               \
+} while(0)
+
+#define LOG_WARN(fmt, ...) do {                                                                    \
+	if(get_loglevel() >= LOG_LVL_WARN) {                                                           \
+		LOG_PRINT("WARN", fmt, ##__VA_ARGS__);                                                     \
+	}                                                                                               \
+} while(0)
+
+#define LOG_INFO(fmt, ...) do {                                                                    \
+	if(get_loglevel() >= LOG_LVL_INFO) {                                                           \
+		LOG_PRINT("INFO", fmt, ##__VA_ARGS__);                                                     \
+	}                                                                                               \
+} while(0)
+
+#define LOG_DEBUG(fmt, ...) do {                                                                    \
+	if(get_loglevel() >= LOG_LVL_DEBUG) {                                                           \
+		LOG_PRINT("DEBUG", fmt, ##__VA_ARGS__);                                                     \
+	}                                                                                               \
+} while(0)
 
 /* ------------------------------ 函数入口、出口宏 ------------------------------ */
-#define FUNC_ENTRY()  LOG_INFO("enter")
-#define FUNC_EXIT()   LOG_INFO("exit")
+#define FUNC_ENTRY()  LOG_DEBUG("enter")
+#define FUNC_EXIT()   LOG_DEBUG("exit\n")
 
 /* ------------------------------ 未使用参数处理宏 ------------------------------ */
 #define UNUSED(Pragma) ((void)(Pragma))
