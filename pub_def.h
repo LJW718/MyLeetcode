@@ -16,7 +16,7 @@
 #define LC_LIST_DEBUG                       (0)
 #define LC_MATH_DEBUG                       (0)
 #define LC_STRING_DEBUG                     (0)
-#define LC_UTHASH_DEBUG                     (0)
+#define LC_UTHASH_DEBUG                     (1)
 
 /*------------------------------ 自定义数据类型 ------------------------------ */
 #ifndef __LC_TYPE_DEFINE__
