@@ -18,23 +18,41 @@ typedef struct {
     Sum pSum;
 }FUNC_PTR_T;
 
+/* 
+在 C 语言中，对于单个变量（如 int），其内部字节的“地址”永远是“从低到高”增长的，而“字节排列顺序”取决于大小端。
+
+地址增长方向（硬件/栈方向）：指内存地址编号是变大还是变小。
+
+栈（Stack）：通常向下增长（地址从高到低）。
+
+堆（Heap）/ 全局区 / 数组：通常向上增长（地址从低到高）。
+
+固定规律：但在同一个变量内部（比如一个 int 占用的 4 个字节），它们的地址编号一定是连续且递增的（低地址 -> 高地址）。这是 CPU 内存寻址的基本物理规则。
+
+字节增长方向（大小端 Endianness）：指在多字节变量中，低地址处存放的是数据的低位还是高位。
+*/
+
 // 检测系统大小端函数
 int BigLittleEndian(void)
 {
+    // 用 0x0001 做测试，其内存分布为：
+    // 大端：00 01 (高位字节在前)
+    // 小端：01 00 (低位字节在前)
     MY_UNION myUnion;
-    myUnion.x = 1;
+    myUnion.x = 0x0001;
+    LOG_INFO("Memory(low address ---> high address)");
+    LOG_INFO("Data (high bytes  ---> low bytes)" );
+    LOG_INFO("Data myUnion.x[short] hex = 0x%04X", myUnion.x);
+    LOG_INFO("Data myUnion.y[char] hex = 0x%02X", myUnion.y);
     if (myUnion.y == 1)
     {
-        // 大端模式：高地址存放低字节，低地址存放高字节，高低低高
-        // 高字节-------低字节
-        // 12   34   56   78
-        // 低地址-------高地址
-        LOG_DEBUG("Big Endian");
+        // 小端模式：高地址存放高字节，低地址存放低字节，高高低低
+        LOG_INFO("Little Endian —— low address store low bytes.");
     }
     else
     {
-        // 小端模式：高高低低
-        LOG_DEBUG("Little Endian");
+        // 大端模式：高地址存放低字节，低地址存放高字节，高低低高
+        LOG_INFO("Big Endian —— low address store high bytes.");
     }
     return 0;
 }
