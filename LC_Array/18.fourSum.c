@@ -30,63 +30,79 @@ nums[a] + nums[b] + nums[c] + nums[d] == target
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
 
-#include<stdio.h>
-#include<malloc.h>
-#include <string.h>
-#include <stdlib.h>
+#include "lc_array.h"
 
 #define MAX_SIZE 100000
 
-
-int Cmp(const void* a, const void* b) {
-    return *(int*)a - *(int*)b;
+int Cmp(const void *a, const void *b)
+{
+    return *(int *)a - *(int *)b;
 }
 
-int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
+int **fourSum(int *nums, int numsSize, int target, int *returnSize, int **returnColumnSizes)
+{
     *returnSize = 0;
-    *returnColumnSizes = (int*)malloc(sizeof(int) * MAX_SIZE);
+    *returnColumnSizes = (int *)malloc(sizeof(int) * MAX_SIZE);
     memset((*returnColumnSizes), 0, sizeof(int) * MAX_SIZE);
-    if (nums == NULL || numsSize < 4) {
+    if (nums == NULL || numsSize < 4)
+    {
         return NULL;
     }
 
-    int** res = (int**)malloc(sizeof(int*) * MAX_SIZE);
-    memset(res, 0, sizeof(int*) * MAX_SIZE);
+    int **res = (int **)malloc(sizeof(int *) * MAX_SIZE);
+    memset(res, 0, sizeof(int *) * MAX_SIZE);
     qsort(nums, numsSize, sizeof(int), Cmp);
-    if (target >= 0 && nums[0] > target) {
+    if (target >= 0 && nums[0] > target)
+    {
         return NULL;
     }
+    LOG_DEBUG("target : %d, nums : ", target);
+    for (UINT8 i = 0; i < numsSize; i++)
+    {
+        printf("%d ", nums[i]);
+    }
+    printf("\n");
     int a, b, c, d;
-    for (a = 0; a <= numsSize - 4; a++) {
+    for (a = 0; a <= numsSize - 4; a++)
+    {
         // printf("a = %d\n", a);
-        if (a > 0 && nums[a - 1] == nums[a]) {
-            continue;	// 去重复
+        if (a > 0 && nums[a - 1] == nums[a])
+        {
+            continue; // 去重复
         }
-        for (b = a + 1; b <= numsSize - 3; b++) {
-            if (b > a + 1 && nums[b] == nums[b - 1]) {
+        for (b = a + 1; b <= numsSize - 3; b++)
+        {
+            if (b > a + 1 && nums[b] == nums[b - 1])
+            {
                 continue; // 去重复
             }
             c = b + 1;
             d = numsSize - 1;
-            while (c < d) {
-                if (nums[a] + nums[b] + nums[c] + nums[d] < target) {
+            while (c < d)
+            {
+                if (nums[a] + nums[b] + nums[c] + nums[d] < target)
+                {
                     c++;
                 }
-                else if (nums[a] + nums[b] + nums[c] + nums[d] > target) {
+                else if (nums[a] + nums[b] + nums[c] + nums[d] > target)
+                {
                     d--;
                 }
-                else {
-                    res[*returnSize] = (int*)malloc(sizeof(int) * 4);
+                else
+                {
+                    res[*returnSize] = (int *)malloc(sizeof(int) * 4);
                     res[*returnSize][0] = nums[a];
                     res[*returnSize][1] = nums[b];
                     res[*returnSize][2] = nums[c];
                     res[*returnSize][3] = nums[d];
                     (*returnColumnSizes)[*returnSize] = 4;
                     (*returnSize) += 1;
-                    while (c < d && nums[c] == nums[c + 1]) {
+                    while (c < d && nums[c] == nums[c + 1])
+                    {
                         c++;
                     }
-                    while (c < d && nums[d - 1] == nums[d]) {
+                    while (c < d && nums[d - 1] == nums[d])
+                    {
                         d--;
                     }
                     c++;
@@ -94,6 +110,16 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
                 }
             }
         }
+    }
+    LOG_DEBUG("returnSize : %d", *returnSize);
+    for (UINT8 i = 0; i < *returnSize; i++)
+    {
+        LOG_DEBUG("row:%d, col[%d] = %d", i, i, (*returnColumnSizes)[i]);
+        for (UINT8 j = 0; j < (*returnColumnSizes)[i]; j++)
+        {
+            printf("%d ", res[i][j]);
+        }
+        printf("\n");
     }
     return res;
 }

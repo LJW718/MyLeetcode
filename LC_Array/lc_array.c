@@ -38,6 +38,17 @@ void LC_Array_Demo(void)
 
     lengthOfLongestSubstring("abcabcbb");
 
+    int nums4[] = {1,0,-1,0,-2,2};
+    INT32 target = 0;
+    INT32 *retColSize = NULL;
+    int **res = fourSum(nums4, ARRAY_SIZE(nums4), target, &returnSize, &retColSize);
+    for (UINT8 i = 0; i < returnSize; i++)
+    {
+        // 分段分配（int ** 类型，每行单独 malloc）, 正确释放顺序（先释放行，再释放列指针）
+        free(res[i]);
+    }
+    free(res);
+    free(retColSize);
     FUNC_EXIT();
     return;
 }

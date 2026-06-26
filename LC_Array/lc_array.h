@@ -32,6 +32,9 @@ int arrayPairSum(int* nums, int numsSize);
 //1480. 一维数组的动态和
 int* runningSum(int* nums, int numsSize, int* returnSize);
 
+// 18. 四数之和
+int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes);
+
 void LC_Array_Demo(void);
 
 #endif //MYLEETCODE_ARRAYHEADERFILE_H
