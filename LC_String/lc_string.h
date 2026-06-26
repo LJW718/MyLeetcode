@@ -26,6 +26,9 @@ char ** generateParenthesis(UINT32 n, UINT32* returnSize);
 //537. 复数乘法
 char * complexNumberMultiply(char * a, char * b);
 
+// 8. 字符串转换整数 (atoi)
+int myAtoi(char* s);
+
 void LC_String_Demo(void);
 
 #endif //MYLEETCODE_STRINGHEADERFILE_H
