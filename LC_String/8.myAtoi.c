@@ -13,7 +13,7 @@
 舍入：如果整数数超过 32 位有符号整数范围 [−231,  231 − 1] ，需要截断这个整数，使其保持在这个范围内。具体来说，小于 −231 的整数应该被舍入为 −231 ，大于 231 − 1 的整数应该被舍入为 231 − 1 。
 返回整数作为最终结果。
 
- 
+
 
 示例 1：
 
@@ -82,7 +82,7 @@
 
 读取在第一个非数字字符“w”处停止。
 
- 
+
 
 提示：
 
@@ -91,93 +91,54 @@ s 由英文字母（大写和小写）、数字（0-9）、' '、'+'、'-' 和 '
 
 */
 
-int myAtoi(char* s) {
+int myAtoi(char *s)
+{
     if (s == NULL)
     {
         return 0;
     }
-
-    LOG_DEBUG("str = \"%s\"", s);
-    char flagA = 0, flagB = 0, flagC = 0, flagD = 0;
-    char *p = s;
-    char buff[200] = {0};
-    int i = 0;
-    while(*p != '\0')
+    const char *const p = s;
+    // 1. 跳过前导空格
+    while (*s == ' ')
     {
-        if (*p == ' ')
-        {
-            p++;
-            if (flagA || flagB || flagC || flagD)
-            {
-                return 0;
-            }
-            continue;
-        }
-        else if (*p == '-')
-        {
-            flagA += 1;
-            if (flagC >= 1 || flagA > 1)
-            {
-                return 0;
-            }
-            if ((i > 0) && ((buff[i-1] >= '0') || (buff[i-1] <= '9')))
-            {
-                break;
-            }
-        }
-        else if (*p == '+')
-        {
-            flagC += 1;
-            if (flagA >= 1 || flagC > 1)
-            {
-                return 0;
-            }
-        }
-        else if(*p >= '0' && *p <= '9')
-        {
-            flagD += 1;
-            if (i == 0 && flagB >= 1)
-            {
-                return 0;
-            }
-            buff[i++] = *p;
-            if (*(p+1) < '0' || *(p + 1) > '9')
-            {
-                break;
-            }
-        }
-        else if((*p >= 'A' && *p <= 'Z') || (*p >= 'a' && *p <= 'z') || (*p == '.'))
-        {
-            flagB += 1;
-            if ((i > 0) && ((buff[i-1] >= '0') || (buff[i-1] <= '9')))
-            {
-                break;
-            }
-        }
-        p++;
+        s++;
     }
 
-    long long res = atoll(buff);
-    if (flagA)
+    // 2. 处理符号
+    int sign = 1;
+    if (*s == '-')
     {
-        if (res >= 2147483648)
-        {
-            return 0 - 2147483648;
-        }
-        else
-        {
-            return (int)(0 - res);
-        }
+        sign = -1;
+        s++;
     }
-    else
+    else if (*s == '+')
     {
-        if (res >= 2147483647)
-        {
-            return 2147483647;
-        }
-        else
-        {
-            return (int)res;
-        }
+        s++;
     }
+
+    // 3. 转换数字，并检测溢出
+    long long result = 0;
+    while (*s >= '0' && *s <= '9')
+    {
+        result = result * 10 + (*s - '0');
+        // 提前判断溢出，避免 long long 溢出（但 long long 通常足够，此处仍做检查）
+        // if (result > INT_MAX)
+        // {
+        //     return sign == 1 ? INT_MAX : INT_MIN;
+        // }
+        s++;
+    }
+
+    // 4. 返回带符号的结果
+    result *= sign;
+    if (result > INT_MAX)
+    {
+        result = INT_MAX;
+    }
+    else if (result < INT_MIN)
+    {
+        result = INT_MIN;
+    }
+    LOG_DEBUG("str = \"%s\", result = %d", p, (int)result);
+    return (int)result;
 }
