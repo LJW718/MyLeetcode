@@ -11,5 +11,9 @@ void LC_Math_Demo(void)
     }
 
     myPow(5.0, 6);
+
+    reverse(-14562);
+    reverse(12345);
+
     FUNC_EXIT();
 }
