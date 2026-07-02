@@ -31,5 +31,9 @@ void LC_String_Demo(void)
     myAtoi("   +0 123");
     myAtoi("   888895936875");
     myAtoi("   -124579624584");
+
+    longestPalindrome("babad");
+    longestPalindrome("cbbd");
+
     FUNC_EXIT();
 }

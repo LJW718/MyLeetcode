@@ -29,6 +29,9 @@ char * complexNumberMultiply(char * a, char * b);
 // 8. 字符串转换整数 (atoi)
 int myAtoi(char* s);
 
+// 5. 最长回文子串
+char* longestPalindrome(char* s);
+
 void LC_String_Demo(void);
 
 #endif //MYLEETCODE_STRINGHEADERFILE_H
